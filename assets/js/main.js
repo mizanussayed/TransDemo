@@ -54,6 +54,23 @@
   window.addEventListener('load', navbarlinksActive)
   onscroll(document, navbarlinksActive)
 
+
+
+var all = document.getElementsByClassName("nav-link");
+
+// if the url contains any of the below then we set the classname active
+var index = "index";
+var contact = "contact";
+var services = "services";
+
+function setclassname() {
+    if (window.location.href.indexOf(index || contact || services) > -1) {
+        all.className += "active";
+    }
+};
+
+//all.addEventListener("click", setclassname());
+
   /**
    * Scrolls to an element with header offset
    */
