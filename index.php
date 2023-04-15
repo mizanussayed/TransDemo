@@ -310,7 +310,7 @@ include('components/navbar.php')
 <div class="section-title" data-aos="fade-up">
   <h2>About Us</h2>
   <h6 class="mt-3 text-center px-md-5 mx-md-5">Lexicology
-    Translation Company works in cooperation with Talal Abu-Ghazaleh Translation, (TAG-TDP) according to a formal agreement between both parties in order to provide certified Translation and Training Services for our customers in the Kingdom of Saudi Arabia and around he world.</6>
+  Lexicology translation bureau works in cooperation with many translation institute from across the world in order to provide certified Translation and Training Services for our customers in the Kingdom of Saudi Arabia and around the world.</6>
 </div>
 
 <div class="row" data-aos="fade-left">

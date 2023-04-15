@@ -42,17 +42,21 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-4"> 
-            <img src=""> 
+        <div class="col-md-3"> 
+            <img src="./assets/img/cr.png" width="50"> 
             <p>CR : 1010645449 </p>
         </div>
-        <div class="col-md-4"> 
-            <img src=""> 
-            <p>VAT : 702 </p>
+        <div class="col-md-3"> 
+        <img src="./assets/img/vat.png" width="50"> 
+            <p>VAT : 302086939100003</p>
         </div>
-        <div class="col-md-4"> 
-            <img src=""> 
+        <div class="col-md-3"> 
+        <img src="./assets/img/cr.png" width="50" style="opacity:2"> 
             <p>License : 702 </p>
+        </div>
+        <div class="col-md-3"> 
+        <img src="./assets/img/balady.png" width="50" style="opacity:2"> 
+            <p>Balady License: 42054997939 </p>
         </div>
     </div>
 
@@ -66,7 +70,7 @@
 </div>
 </footer>
 
-<a  class="whatsapp active d-flex align-items-center justify-content-center" href="https://web.whatsapp.com/send?phone=0547888187&amp;text=HowCanWeHelpYou!" target="_blank">
+<a  class="whatsapp active d-flex align-items-center justify-content-center" href="https://web.whatsapp.com/send?phone=9660554237826&amp;text=Hello!" target="_blank">
     <img src="assets/img/whatsapp.png" alt="Lexicology Translation" ></a>
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
     class="bi bi-arrow-up-short"></i></a>
