@@ -60,8 +60,30 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Back to top button
+# Back to top button and whatsapp
 --------------------------------------------------------------*/
+
+.whatsapp {
+  position: fixed;
+  opacity: 1;
+  right: 15px;
+  bottom: 0;
+  top:0;
+  margin: auto;
+  z-index: 996;
+  border-radius: 50px;
+  transition: all 0.4s;
+  visibility: visible;
+}
+
+.whatsapp  img{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50px;
+  transition: all 0.4s;
+  visibility: visible;
+}
+
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -126,9 +148,11 @@ h6 {
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-weight: 700;
 }
 
+#header .logo h1  span{
+  font-weight: 900;
+}
 #header .logo h1 a,
 #header .logo h1 a:hover {
   color: #fff;
@@ -138,7 +162,8 @@ h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 100px;
+  padding-top: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -401,11 +426,14 @@ h6 {
   background: url("../img/hero-bg.jpg");
   position: relative;
   padding: 120px 0 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
 
 #hero:before {
   content: "";
-  background: rgba(2, 5, 161, 0.91);
+  background: rgba(2, 4, 91, 0.31);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -461,7 +489,7 @@ h6 {
 
 @media (max-width: 991px) {
   #hero {
-    padding-top: 80px;
+    padding-top: 100px;
   }
 
   #hero .animated {
@@ -473,7 +501,7 @@ h6 {
   }
 
   #hero .hero-img img {
-    max-width: 50%;
+    max-width: 90%;
   }
 
   #hero h1 {
@@ -507,11 +535,11 @@ h6 {
 
 .hero-waves {
   display: block;
-  margin-top: 60px;
+  top: 92vh;
   width: 100%;
   height: 60px;
   z-index: 5;
-  position: relative;
+  position: absolute;
 }
 
 .wave1 use {

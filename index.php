@@ -8,12 +8,12 @@
 <meta content="" name="keywords">
 
 <?php
-include "Components/header.php"
+include('./components/header.php')
 ?>
 </head>
 <body>
 <?php
-include "Components/Navbar.php"
+include('components/navbar.php')
 ?>
 
 <section id="hero">  
@@ -29,9 +29,9 @@ include "Components/Navbar.php"
         </div>
       </div>
     </div>
-    <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
-      <img src="./assets/img/hero-img.png" class="img-fluid animated" alt="">
-    </div>
+    <!-- <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
+      <img src="./assets/img/discussion.jpg" class="img-fluid animated" alt="">
+    </div> -->
   </div>
 </div>
 <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -49,10 +49,9 @@ include "Components/Navbar.php"
     <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
   </g>
 </svg>
-
 </section>
-<main id="main">
 
+<main id="main">
 <section class="testimonials" id="testimonials">
   <div class="container">
     <div class="section-title" data-aos="fade-up">
@@ -420,8 +419,42 @@ It is well known that Talal Abu-Ghazaleh Organization for Professional Services 
 </section> -->
 
 
+
+<section>
+  <div class="container-fluid p-4" style="background-color:#F5F4F9">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-2">
+            <br /> &nbsp; &nbsp;
+            <img  src="./assets/img/logo.png" alt="http://lexicologytranslation.com/"  width="100"/>
+          </div>
+          <div class="col-md-10">
+            <h2>Do you need assistance?</h2>
+            <p>We are here to help with getting a relevant quote for complex documents, website translation, PDF, software translation, and other translation-related projects.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-4"> 
+            <br />  &nbsp; &nbsp;
+          <a href="tel:+9660547888187" style="font-size:20px"> 
+          <i class="bi bi-telephone-fill"></i>&nbsp; +0547888187 </a>
+          </div>
+          <div class="col-md-8">
+             <br /> 
+           <a href="mailto:info@lexicologytranslation.com" style="font-size:20px"> 
+           <i class="bi bi-envelope"></i> &nbsp; info@lexicologytranslation.com </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+</section>
+
 <?php
-include "Components/Footer.php"
+include('./components/footer.php')
 ?>
 </main>
 </body>

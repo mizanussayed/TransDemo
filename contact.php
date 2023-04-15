@@ -8,12 +8,12 @@
 <meta content="" name="keywords">
 
 <?php
-include "Components/header.php"
+include('./components/header.php')
 ?>
 </head>
 <body>
 <?php
-include "Components/Navbar.php"
+include('components/navbar.php')
 ?>
 <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/hero-bg.jpg');">
     <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
@@ -42,19 +42,20 @@ include "Components/Navbar.php"
     <div class="address">
         <i class="bi bi-geo-alt"></i>
         <h4>Location:</h4>
-        <p>A108 Adam Street, New York, NY 535022</p>
+        <p>A108 Adam Street, Riad, Saudi Arabia</p>
     </div>
 
     <div class="email">
         <i class="bi bi-envelope"></i>
         <h4>Email:</h4>
-        <p>info@example.com</p>
+        <p>info@lexicologytranslation.com</p>
     </div>
 
     <div class="phone">
         <i class="bi bi-phone"></i>
         <h4>Call:</h4>
-        <p>+1 5589 55488 55s</p>
+        <p>+9660547888187</p>
+        <p>+9660554237826</p>
     </div>
 
     </div>
@@ -78,6 +79,9 @@ include "Components/Navbar.php"
     <div class="form-group mt-3">
         <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
     </div>
+    <div class="form-group mt-3">
+        <input type="file" class="form-control" name="sampleFile" id="sampleFile" placeholder="Your Sample File">
+    </div>
     <div class="my-3">
         <div class="loading">Loading</div>
         <div class="error-message"></div>
@@ -91,14 +95,15 @@ include "Components/Navbar.php"
 </div>
 <div class="row">
 <div class="col-md-6">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.378414635264!2d90.39037217451695!3d23.733881489411846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8e90a449e4f%3A0xb7092a9c25197fa4!2z4Kai4Ka-4KaV4Ka-IOCmrOCmv-CmtuCnjeCmrOCmrOCmv-CmpuCnjeCmr-CmvuCmsuCnnw!5e0!3m2!1sbn!2sbd!4v1681453081660!5m2!1sbn!2sbd" width="100%" height="250px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d906.2500044592057!2d46.70135606953661!3d24.692526117105533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f034a8bc1f4c3%3A0x836aec89f7a7dbf5!2zTGV4aWNvbG9neSBDZXJ0aWZpZWQgVHJhbnNsYXRpb24gT2ZmaWNlINmF2YPYqtioINi52YTZiNmFINin2YTZhdi52KfYrNmFINmE2YTYqtix2KzZhdip!5e0!3m2!1sen!2sbd!4v1681569574142!5m2!1sen!2sbd" width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 </div>
 
 </div>
 </section>
 <?php
-include "Components/Footer.php"
+include('./components/footer.php')
 ?>
 
 </main>

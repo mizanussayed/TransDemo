@@ -8,12 +8,12 @@
 <meta content="" name="keywords">
 
 <?php
-include "Components/header.php"
+include('./components/header.php')
 ?>
 </head>
 <body>
 <?php
-include "Components/Navbar.php"
+include('components/navbar.php')
 ?>
 <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/hero-bg.jpg');">
     <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
@@ -98,7 +98,7 @@ include "Components/Navbar.php"
 </div>
 </section>
 <?php
-include "Components/Footer.php"
+include('./components/footer.php')
 ?>
 
 </main>

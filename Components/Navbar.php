@@ -2,8 +2,8 @@
 <header id="header" class="fixed-top d-flex align-items-center header-transparent">
 <div class="container d-flex align-items-center justify-content-between">
     <div class="logo">
-    <h1><a href="index.php"><span>Lexicology <br /> Translation</span></a></h1>
-    <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+    <h1><a href="index.php" ><img src="assets/img/logo.png" alt="Lexicology Translation"><span style="color:red">Lexicology</span><span style="color:black"> Translation </span></a> </h1>
+</a>
     </div>
     <nav id="navbar" class="navbar">
     <ul>
