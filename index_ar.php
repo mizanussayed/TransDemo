@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <title>lexicologytranslation | Home</title>
 <?php
-include('./components/header.php')
+include('./arabic/header_ar.php')
 ?>
 </head>
 <body>
 <?php
-include('components/navbar.php')
+include('./arabic/navbar_ar.php')
 ?>
 
 <section id="hero">  
@@ -18,8 +18,8 @@ include('components/navbar.php')
   <div class="row justify-content-between">
     <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
       <div data-aos="zoom-out">
-        <h1>OFFERING SARVE TO BUSINESS MARKET WITH PRIDES SINCE 2011</h1>
-        <h2>To provide a sophisticated translation that keeps pace with the development taking place in the Kingdom and is in line with the Kingdom's future vision.</h2>
+        <h1>تقديم الخدمة لسوق الأعمال بكل اعتزاز منذ عام 2011</h1>
+        <h2>أن نقدم ترجمة راقية تواكب التطور الذي يجري الآن في المملكة ويتماشى مع رؤية المملكة المستقبلية</h2>
         <div class="text-center text-lg-start">
           <a href="contact.php" class="btn-get-started scrollto">Get A QUOTATION</a>
         </div>
@@ -176,40 +176,40 @@ include('components/navbar.php')
 <section class="category" id="category">   
       <div class="container">
         <div class="section-title" data-aos="fade-up">
-          <h2>The Translation Company You Need</h2>
-          <p>Our Mission is Serving the Saudi business market through in a high quality and speed in performing work with professionalism and sincerity.</p>
+          <h2>شركة الترجمة التي تحتاجها</h2>
+          <p>مهمتنا خدمة سوق العمل السعودي من خلال الجودة والسرعة في أداء العمل بمهنية وإخلاص</p>
         </div>
     <div class="row" data-aos="fade-up" data-aos-delay="100">
         <div class="col-md-6">
           <div class="row">
             <div class="col-md-6">
               <img src="./assets/img/check-mark-1.webp" /> <br/> <br/>
-              <h3 style="font-weight: 900; color: black;">100% Human Translated</h3>
+              <h3 style="font-weight: 900; color: black;">ترجمة بشرية 100%</h3>
               <p>
-              High-quality full human translation - documents are much human cared about.
+              ترجمة بشرية كاملة عالية الجودة - الوثائق تحظى برعاية بشرية تامة
               </p>
             </div>
             <div class="col-md-6">
               <img src="./assets/img/check-mark-1.webp" /> <br/> <br/>
-              <h3 style="font-weight: 900; color: black;">Confidentiality</h3>
+              <h3 style="font-weight: 900; color: black;">السرية</h3>
               <p>
-              We maintain a strict confidentiality policy in all our engagements and can sign non-disclosure agreements if required to demonstrate our due care.
+              نحافظ على سياسة سرية صارمة في جميع ارتباطاتنا ويمكننا توقيع اتفاقيات عدم إفشاء إذا طُلب منا لإثبات رعايتنا الواجبة.
               </p>
             </div>
           </div>
           <div class="row">
             <div class="col-md-6">
               <img src="./assets/img/check-mark-1.webp" /> <br/> <br/>
-              <h3 style="font-weight: 900; color: black;">Integrity</h3>
+              <h3 style="font-weight: 900; color: black;">النزاهة</h3>
               <p>
-              We value honesty, honesty, and transparency, and we are committed to giving you the best experience in all of our services.
+              نحن نقدر الصدق والأمانة والشفافية ، ونحن ملتزمون بمنحك أفضل تجربة في جميع خدماتنا.
               </p>
             </div>
             <div class="col-md-6">
               <img src="./assets/img/check-mark-1.webp" /> <br/> <br/>
-              <h3 style="font-weight: 900; color: black;">Quality Commitment</h3>
+              <h3 style="font-weight: 900; color: black;">الالتزام بالجودة</h3>
               <p>
-              We commit to provide a consistent level of quality in all our services. We care about your success. Your goals are ours, and we are happy to help you.
+              نلتزم بتقديم مستوى ثابت من الجودة في جميع خدماتنا. نحن نهتم بنجاحك. أهدافك هي أهدافنا ويسعدنا مساعدتكم 
               </p>
             </div>
           </div>
@@ -229,33 +229,35 @@ include('components/navbar.php')
   <div class="container">
     <div class="section-title" data-aos="fade-up">
       <span></span>
-      <h2>Our Services</h2>
-      <p>Armed with high-rated translators fromdifferent countries, we can translate anything into and from over 10+ languages, guaranteeing client satisfaction.</p>
+      <h2>خدماتنا</h2>
+      <p>
+مسلحين بمترجمين ذوي تصنيف عالي من مختلف الدول، يمكننا ترجمة أي شيء من وإلى أكثر من 10 لغات ، مما يضمن إرضاء العميل</p>
     </div>
       <div class="row">
 
         <div class="col-md-4 d-flex align-items-stretch mb-5 mb-lg-0">
           <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
             <div class="icon"><img  src="./assets/img/services/Academic-Translation.png"/></div>
-            <h4 class="title"><a href="">Academic Transtation</a></h4>
-            <p class="description">Academic texts are translated by our experienced translators who are competent and have the sufficient terminology.</p>
+            <h4 class="title"><a href="">الترجمة الأكاديمية</a></h4>
+            <p class="description">
+            تتم ترجمة النصوص الأكاديمية من قبل مترجمين ذوي الخبرة والكفاءة والممتلكين للمصطلحات الكافية
+            </p>
           </div>
         </div>
 
         <div class="col-md-4 d-flex align-items-stretch mb-5 mb-lg-0">
           <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><img  src="./assets/img/services/Document-Translation.png"/> </div>
-            <h4 class="title"><a href="">Document Tranlation</a></h4>
-            <p class="description">We provide translations for any type of documents such as business communications, websites, advertising and marketing.</p>
+            <h4 class="title"><a href="">ترجمة الوثائق</a></h4>
+            <p class="description">نقدم ترجمات لأي نوع من المستندات مثل الاتصالات التجارية والمواقع الإلكترونية والإعلان والتسويق</p>
           </div>
         </div>
 
         <div class="col-md-4 d-flex align-items-stretch mb-5 mb-lg-0">
           <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><img  src="./assets/img/services/Business-Translation.png"/> </div>
-            <h4 class="title"><a href="">Business Tranlation</a></h4>
-            <p class="description">Business Translation 
-Translating official and informal documents in the form of E-mails, memoranda, etc</p>
+            <h4 class="title"><a href="">ترجمة الأعمال</a></h4>
+            <p class="description">ترجمة المستندات الرسمية وغير الرسمية في شكل رسائل بريد إلكتروني ومذكرات وما إلى ذلك</p>
           </div>
         </div>
 
@@ -265,24 +267,24 @@ Translating official and informal documents in the form of E-mails, memoranda, e
         <div class="col-md-4 d-flex align-items-stretch mb-5 mb-lg-0">
           <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><img  src="./assets/img/services/Art-Literary.png"/> </div>
-            <h4 class="title"><a href="">Art & Literary Tranlation</a></h4>
-            <p class="description">This type of translation requires expertise in the subject of art and literature translations, which are done by our expert translators.</p>
+            <h4 class="title"><a href="">الترجمة الفنية والأدبية</a></h4>
+            <p class="description">يتطلب هذا النوع من الترجمة خبرة في موضوع الترجمة الفنية والأدبية، ولدينا يقوم بها مترجمون خبراء</p>
           </div>
         </div>
 
         <div class="col-md-4 d-flex align-items-stretch mb-5 mb-lg-0">
           <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><img  src="./assets/img/services/Legal-Translation.png"/> </div>
-            <h4 class="title"><a href="">Legal Tranlation</a></h4>
-            <p class="description">Our legal translation services cover all kinds of legal contracts, legal prospectuses, legal accounts brochures, etc.</p>
+            <h4 class="title"><a href="">الترجمة القانونية</a></h4>
+            <p class="description">تغطي خدمات الترجمة القانونية لدينا جميع أنواع العقود القانونية، والنشرات القانونية، وكتيبات الحسابات القانونية، وما إلى ذلك</p>
           </div>
         </div>
-
+        
         <div class="col-md-4 d-flex align-items-stretch mb-5 mb-lg-0">
           <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><img  src="./assets/img/services/Medical-Translation.png"/> </div>
-            <h4 class="title"><a href="">Medical Tranlation</a></h4>
-            <p class="description">We require that all medical translators must be highly educated, highly trained and experienced in the field of medical.</p>
+            <h4 class="title"><a href="">الترجمة الطبية</a></h4>
+            <p class="description">نحن نطلب أن يكون جميع المترجمين الطبيين على درجة عالية من التعليم والتدريب العالي والخبرة في المجال الطبي</p>
           </div>
         </div>
 
@@ -301,9 +303,11 @@ Translating official and informal documents in the form of E-mails, memoranda, e
 <div class="container">
 
 <div class="section-title" data-aos="fade-up">
-  <h2>About Us</h2> 
+  <h2>عن مكتبنا</h2> 
   <h6 class="mt-3 text-center px-md-5 mx-md-5">Lexicology
-  Lexicology translation bureau works in cooperation with many translation institute from across the world in order to provide certified Translation and Training Services for our customers in the Kingdom of Saudi Arabia and around the world.</6>
+  مكتب علوم المعاجم للترجمة 
+يقدم أكثر من عقدين من الخبرة المثالية
+</6>
 </div>
 
 <div class="row" data-aos="fade-left">
@@ -448,7 +452,7 @@ Offering more than two decades of experienced perfection for Professional Servic
 </section>
 
 <?php
-include('./components/footer.php')
+include('./arabic/footer_ar.php')
 ?>
 </main>
 </body>

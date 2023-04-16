@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -8,19 +8,19 @@
 <meta content="" name="keywords">
 
 <?php
-include('./components/header.php')
+include('./arabic/header_ar.php')
 ?>
 </head>
 <body>
 <?php
-include('components/navbar.php')
+include('./arabic/navbar_ar.php')
 ?>
-<div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/hero-bg.jpg');">
+<div class="breadcgrumbs d-flex align-items-center" style="background-image: url('assets/img/hero-bg.jpg');">
     <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
 
     <h2>About Us</h2>
     <ol>
-        <li><a href="index.php">Home</a></li>
+        <li><a href="index_ar.php">Home</a></li>
         <li>About</li>
     </ol>
 
@@ -98,7 +98,7 @@ include('components/navbar.php')
 </div>
 </section>
 <?php
-include('./components/footer.php')
+include('./arabic/footer_ar.php')
 ?>
 
 </main>

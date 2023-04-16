@@ -4,8 +4,7 @@
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <title>lexicologytranslation - Contact</title>
-<meta content="" name="description">
-<meta content="" name="keywords">
+
 
 <?php
 include('./components/header.php')
@@ -42,7 +41,7 @@ include('components/navbar.php')
     <div class="address">
         <i class="bi bi-geo-alt"></i>
         <h4>Location:</h4>
-        <p>A108 Adam Street, Riad, Saudi Arabia</p>
+        <p>Abu Bakr Alrazi St, As Sulimaniyah, Riyadh 11564, Saudi Arabia</p>
     </div>
 
     <div class="email">

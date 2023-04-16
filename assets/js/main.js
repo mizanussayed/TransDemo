@@ -216,3 +216,21 @@ function setclassname() {
   });
   new PureCounter();
 })()
+
+function switchLang() {
+  let languageSelect = document.getElementById("languageSelect");
+  let selectedLang = languageSelect.value;
+  if (selectedLang === "ar") {
+      if (window.location.toString().includes("about")) {
+          window.location.href = "about_ar.php";
+      } else {
+          window.location.href = "index_ar.php";
+      }
+  } else {
+      if (window.location.toString().includes("about")) {
+          window.location.href = "about.php";
+      } else {
+          window.location.href = "index.php";
+      }
+  }
+}
