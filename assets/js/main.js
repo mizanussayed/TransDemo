@@ -1,5 +1,5 @@
 (function() {
-  "use strict";
+  // "use strict";
 
   /**
    * Easy selector helper function
@@ -33,7 +33,7 @@
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
   }
-
+ 
   /**
    * Navbar links active state on scroll
    */
@@ -217,20 +217,23 @@ function setclassname() {
   new PureCounter();
 })()
 
-function switchLang() {
-  let languageSelect = document.getElementById("languageSelect");
-  let selectedLang = languageSelect.value;
-  if (selectedLang === "ar") {
-      if (window.location.toString().includes("about")) {
-          window.location.href = "about_ar.php";
-      } else {
-          window.location.href = "index_ar.php";
+function switchLang(lang) {
+
+  if (lang === "ar") {
+      if (window.location.toString().includes("services")) {
+          window.location.href = "services_ar.php";
+      }else if (window.location.toString().includes("contact")) {
+          window.location.href = "contact_ar.php";
+      }else{
+        window.location.href = "index_ar.php";
       }
   } else {
-      if (window.location.toString().includes("about")) {
-          window.location.href = "about.php";
-      } else {
-          window.location.href = "index.php";
-      }
+    if (window.location.toString().includes("services")) {
+      window.location.href = "services.php";
+  }else if (window.location.toString().includes("contact")) {
+      window.location.href = "contact.php";
+  }else{
+    window.location.href = "index.php";
+  }
   }
 }

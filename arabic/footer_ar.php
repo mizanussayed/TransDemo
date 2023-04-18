@@ -4,36 +4,56 @@
     <div class="row">
         <div class="col-md-4">
         <div class="footer-infod">
-            <img  src="./assets/img/logo.png" alt="http://lexicologytranslation.com/"  width="90"/>
-            <h3>Lexicology Translation</h3>
-            <p class="pb-3">We offer accurate, affordable, and professional translation services to customers who need guaranteed high-quality translations. TransOrient relies on high-rated 300+ translators from around the world to deliver quality translations according to company standards.
+            <img  src="assets/img/lexicologyTranlationFooterLogo.png" alt="http://lexicologytranslation.com/"  width="90"/>
+            <h3>مكتب علوم المعاجم للترجمة </h3>
+            <p class="pb-3">يُقدمّ شركة عبر الشرق للترجمة خدمات ترجمة احترافية ودقيقة وبأسعارٍ معقولة للعملاء الذين يسعون للحصول على ترجمات مضمونة عالية الجودة، وذلك بفضل فريقه الذي يضم أكثر من 300 مترجمًا متميزًا من جميع أنحاء العالم مما يساعده في تقديم ترجماتٍ عالية الجودة وفقًا لمعايير الشركة.
             </p>            
             <div class="social-links mt-3">
             <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100091641174711" class="facebook"><i class="bx bxl-facebook"></i></a>
             <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
             <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
         </div>
         </div>
-        <div class="col-md-4 footer-links">
-        <h4>Our Services</h4>
+        <div class="col-md-3 footer-links">
+        <h4>ارتباط هام</h4>
         <ul>
             <li><i class="bx bx-chevron-right"></i> <a href="#">About Us</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="#">Our Services</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Galary</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#gallery">Galary</a></li>
         </ul>
         </div>
-        <div class="col-md-4 footer-links">
-        <h4>Contact Info</h4>
-        <p>Abu Bakr Alrazi St, <br/> As Sulimaniyah, 
-        Riyadh 11564, <br/> Saudi Arabia<br><br>
-            <h4>Call:</h4>
-        <p>+9660547888187</p>
-        <p>+9660554237826</p>
-            <strong>Email:</strong> info@lexicologytranslation.com<br>
-            </p>
+        <div class="col-md-5">
+        <h4>معلومات الاتصال</h4>
+            <div class="row">
+                <div class="col-1 text-center">
+                    <p style="font-size:1.4rem"> <i class="bi bi-geo-alt-fill"></i></p> 
+                </div>
+                <div class="col-11">
+                    <h4>العنوان</h4>
+                    <p>
+                    مبنى رقم 7005 سابقا الركن الفرنسي <br>
+                    -مكتب رقم 8 الدور الاول<br>
+                    ابي بكر الرازي مع شارع الضباب - حي السليمانية - الرياض - المملكة العربية السعودية <br> 
+                    </p>
+                </div>
+                <div class="col-1 text-center">
+                    <p style="font-size:1.4rem"> <i class="bi bi-telephone"></i></i></p> 
+                </div>
+                <div class="col-11">
+                   <h4> <a href="callto:9660554237826">هاتف</a> </h4>
+                    <p>+9660554237826</p>
+                    <p>+9660547888187</p>
+                </div>
+                <div class="col-1 text-center">
+                    <p style="font-size:1.4rem"><i class="bi bi-chat-square-dots-fill"></i></p> 
+                </div>
+                <div class="col-11">
+                    <h4> <a href="mailto:info@lexicologytranslation.com">البريد الإلكتروني </a> </h4>
+                    info@lexicologytranslation.com
+                </div>
+            </div>
         </div>
     </div>
     </div>
@@ -61,7 +81,8 @@
 
 
     <div class="copyright">
-    &copy; Copyright <strong><span>Bootslander</span></strong>. All Rights Reserved
+
+    &copy;  شركة عبر الشرق للترجمة. جميع الحقوق محفوظة 2022 </strong>
     </div>
     <div class="credits">
     Designed by <a href="https://fb.com/emrankhnss"> &nbsp; I &nbsp; &nbsp;</a> <a href="https://fb.com/mizanussayed">& &nbsp; &nbsp;M</a>
@@ -74,7 +95,7 @@
     <img src="assets/img/whatsapp.png" alt="Lexicology Translation" ></a>
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
     class="bi bi-arrow-up-short"></i></a>
-<div id="preloader"></div>
+<div id="preloaderd"></div>
 <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
 <script src="assets/vendor/aos/aos.js"></script>
 <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

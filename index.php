@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>lexicologytranslation | Home</title>
+<title>lexicologyTranslation | Home</title>
 <?php
 include('./components/header.php')
 ?>
@@ -217,7 +217,7 @@ include('components/navbar.php')
         <div class="col-md-6">
           <br />
           <br />
-          <img  src="./assets/img/gallery/gallery-1.jpg"   class="img-fluid"/>
+          <img  src="assets/img/gallery/lexicologyTranlation.png"   class="img-fluid"/>
         </div>
       </div>
     </div>
@@ -290,7 +290,7 @@ Translating official and informal documents in the form of E-mails, memoranda, e
 
     <div class="row mt-3 pt-4">
       <div class="col-md-12 text-center">
-        <a href="services.php" class="btn btn-info">View All Services</a>
+        <a href="services.php" class="btn btn-outline-primary">View All Services</a>
       </div>
     </div>
   
@@ -364,14 +364,11 @@ Offering more than two decades of experienced perfection for Professional Servic
   </div>
 
   </div>
-
-
-
 </div>
 </div>
 </section>
 
-<!-- End aboutUs Section
+
 
 <section id="gallery" class="gallery">
   <div class="container">
@@ -385,32 +382,60 @@ Offering more than two decades of experienced perfection for Professional Servic
 
       <div class="col-lg-3 col-md-4">
         <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-          <a href="assets/img/gallery/gallery-1.jpg" class="gallery-lightbox">
-            <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
+          <a href="assets/img/gallery/lexicologyTranlation.png" class="gallery-lightbox">
+            <img src="assets/img/gallery/lexicologyTranlation.png" alt="lexicology Tranlation Gallary" class="img-fluid">
           </a>
         </div>
       </div>
 
       <div class="col-lg-3 col-md-4">
         <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
-          <a href="assets/img/gallery/gallery-2.jpg" class="gallery-lightbox">
-            <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
+        <a href="assets/img/gallery/lexicologyTranlation1.jpg" class="gallery-lightbox">
+            <img src="assets/img/gallery/lexicologyTranlation1.jpg" alt="lexicology Tranlation Gallary" class="img-fluid">
           </a>
         </div>
       </div>
 
       <div class="col-lg-3 col-md-4">
         <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
-          <a href="assets/img/gallery/gallery-3.jpg" class="gallery-lightbox">
-            <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
+        <a href="assets/img/gallery/lexicologyTranlation2.jpg" class="gallery-lightbox">
+            <img src="assets/img/gallery/lexicologyTranlation2.jpg" alt="lexicology Tranlation Gallary" class="img-fluid">
           </a>
         </div>
       </div>
 
+      <div class="col-lg-3 col-md-4">
+        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
+          <a href="assets/img/gallery/lexicologyTranlation3.jpg" class="gallery-lightbox">
+            <img src="assets/img/gallery/lexicologyTranlation3.jpg" alt="lexicology Tranlation Gallary" class="img-fluid">
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4">
+        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+          <a href="assets/img/gallery/lexicologyTranlation4.jpg" class="gallery-lightbox">
+            <img src="assets/img/gallery/lexicologyTranlation4.jpg" alt="lexicology Tranlation Gallary" class="img-fluid">
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4">
+        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
+          <a href="assets/img/gallery/lexicologyTranlation5.jpg" class="gallery-lightbox">
+            <img src="assets/img/gallery/lexicologyTranlation5.jpg" alt="lexicology Tranlation Gallary" class="img-fluid">
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4">
+        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="450">
+          <a href="assets/img/gallery/lexicologyTranlation6.jpg" class="gallery-lightbox">
+            <img src="assets/img/gallery/lexicologyTranlation6.jpg" alt="lexicology Tranlation Gallary" class="img-fluid">
+          </a>
+        </div>
+      </div>
 
     </div>
   </div>
-</section> -->
+</section>
 
 
 
@@ -433,8 +458,8 @@ Offering more than two decades of experienced perfection for Professional Servic
         <div class="row">
           <div class="col-md-4"> 
             <br />  &nbsp; &nbsp;
-          <a href="tel:+9660547888187" style="font-size:20px"> 
-          <i class="bi bi-telephone-fill"></i>&nbsp; +0547888187 </a>
+          <a href="tel:+9660554237826" style="font-size:20px"> 
+          <i class="bi bi-telephone-fill"></i>&nbsp; 0554237826 </a>
           </div>
           <div class="col-md-8">
              <br /> 

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>lexicologytranslation | Home</title>
+<title>lexicologyTranslation | Home</title>
 <?php
 include('./arabic/header_ar.php')
 ?>
@@ -18,10 +18,10 @@ include('./arabic/navbar_ar.php')
   <div class="row justify-content-between">
     <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
       <div data-aos="zoom-out">
-        <h1>تقديم الخدمة لسوق الأعمال بكل اعتزاز منذ عام 2011</h1>
+        <h1 class="m-md-3">تقديم الخدمة لسوق الأعمال بكل اعتزاز منذ عام 2011</h1>
         <h2>أن نقدم ترجمة راقية تواكب التطور الذي يجري الآن في المملكة ويتماشى مع رؤية المملكة المستقبلية</h2>
         <div class="text-center text-lg-start">
-          <a href="contact.php" class="btn-get-started scrollto">Get A QUOTATION</a>
+          <a href="contact_ar.php" class="btn-get-started scrollto">احصل على عرض أسعار</a>
         </div>
       </div>
     </div>
@@ -48,10 +48,8 @@ include('./arabic/navbar_ar.php')
 <section class="testimonials" id="testimonials">
   <div class="container">
     <div class="section-title" data-aos="fade-up">
-    <h2>Trusted by the Top Companies Worldwide</h2>
-    <p>We love partnerng / customers and growing amitious and successful businesses as we are committed to provide a
-      consistent level of quality in all our services. We care abuout your success. Your goals are ours, and we want
-      to help you to achieve your goals </p>
+    <h2>نحظى بثقة أفضل الشركات العالمية</h2>
+    <p>إننا نُحب إقامة الشراكات وتنمية الأعمال التجارية الطموحة والناجحة، ونلتزم بتقديم أفضل خدماتنا بمستوى ثابتٍ من الجودة، ونهتم بنجاح المؤسسات والشركات التي نقدم خدماتنا إليها، فأهدافهم هي أهدافنا. </p>
     </div>
     <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
       <div class="swiper-wrapper">
@@ -292,7 +290,7 @@ include('./arabic/navbar_ar.php')
 
     <div class="row mt-3 pt-4">
       <div class="col-md-12 text-center">
-        <a href="services.php" class="btn btn-info">View All Services</a>
+        <a href="services.php" class="btn btn-outline-primary">عرض جميع الخدمات</a>
       </div>
     </div>
   
@@ -304,7 +302,7 @@ include('./arabic/navbar_ar.php')
 
 <div class="section-title" data-aos="fade-up">
   <h2>عن مكتبنا</h2> 
-  <h6 class="mt-3 text-center px-md-5 mx-md-5">Lexicology
+  <h6 class="mt-3 text-center px-md-5 mx-md-5">
   مكتب علوم المعاجم للترجمة 
 يقدم أكثر من عقدين من الخبرة المثالية
 </6>
@@ -321,20 +319,18 @@ include('./arabic/navbar_ar.php')
   </div>
 
   <div class="col-md-6 mt-sm-5">
-    <h2 style="color:darkblue">Partnering With The Best to Help You Grow</h2>
+    <h2 style="color:darkblue">نحن الشريك الأفضل لمساعدتك على النمو</h2>
     <p>
-It is well known that Lexicology Translation Bureau 
-Offering more than two decades of experienced perfection for Professional Services and Intellectual Property serves their high-profile clients through 8- translation offices all over the world. They are a leader in the professional services sector in the Arab World, and a well-known group, thanks to the widespread network of branches and representative offices.
-    </p>
+    من المعروف أن العديد من مكاتب الترجمة ومنظمات الخدمات المهنية والملكية الفكرية تخدم عملائها البارزين من خلال مكاتب الترجمة التابعة لها في جميع أنحاء العالم. نسعى من جانبنا لنصبح رائدين في قطاع الخدمات المهنية في العالم العربي بفضل شبكة واسعة من الفروع والمكاتب </p>
 
     <div class="row counts">
 
     <div class="col-lg-3 col-md-6">
       <div class="count-box">
         <i class="bi bi-emoji-smile"></i>
-        <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
+        <span data-purecounter-start="0" data-purecounter-end="832" data-purecounter-duration="1"
           class="purecounter"></span>
-        <p>Happy Clients</p>
+        <p>عملاء سعداء</p>
       </div>
     </div>
 
@@ -343,7 +339,7 @@ Offering more than two decades of experienced perfection for Professional Servic
         <i class="bi bi-journal-richtext"></i>
         <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
           class="purecounter"></span>
-        <p>Projects</p>
+        <p>المشاريع</p>
       </div>
     </div>
 
@@ -352,16 +348,16 @@ Offering more than two decades of experienced perfection for Professional Servic
         <i class="bi bi-headset"></i>
         <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1"
           class="purecounter"></span>
-        <p>Hours Of Support</p>
+        <p>ساعات الدعم</p>
       </div>
     </div>
 
     <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
       <div class="count-box">
         <i class="bi bi-people"></i>
-        <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
+        <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1"
           class="purecounter"></span>
-        <p>Hard Workers</p>
+        <p>العمال الجادون</p>
       </div>
     </div>
 
@@ -428,8 +424,10 @@ Offering more than two decades of experienced perfection for Professional Servic
             <img  src="./assets/img/logo.png" alt="http://lexicologytranslation.com/"  width="100"/>
           </div>
           <div class="col-md-10">
-            <h2>Do you need assistance?</h2>
-            <p>We are here to help with getting a relevant quote for complex documents, website translation, PDF, software translation, and other translation-related projects.</p>
+            <h2>هل تحتاج مساعدة؟</h2>
+            <p>
+نحن هنا لمساعدتك في الحصول على عرض أسعار مناسب للمستندات، وترجمة مواقع الويب وملفات البي دي اف وترجمة البرامج والمشاريع الأخرى المتعلقة بالترجمة.
+</p>
           </div>
         </div>
       </div>
@@ -437,8 +435,8 @@ Offering more than two decades of experienced perfection for Professional Servic
         <div class="row">
           <div class="col-md-4"> 
             <br />  &nbsp; &nbsp;
-          <a href="tel:+9660547888187" style="font-size:20px"> 
-          <i class="bi bi-telephone-fill"></i>&nbsp; +0547888187 </a>
+          <a href="tel:+9660554237826" style="font-size:20px"> 
+          <i class="bi bi-telephone-fill"></i>&nbsp; 0554237826 </a>
           </div>
           <div class="col-md-8">
              <br /> 
