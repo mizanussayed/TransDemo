@@ -221,19 +221,33 @@ function switchLang(lang) {
 
   if (lang === "ar") {
       if (window.location.toString().includes("services")) {
-          window.location.href = "services_ar.php";
+          window.location.href = "services_ar";
       }else if (window.location.toString().includes("contact")) {
-          window.location.href = "contact_ar.php";
+          window.location.href = "contact_ar";
       }else{
-        window.location.href = "index_ar.php";
+        window.location.href = "index_ar";
       }
   } else {
     if (window.location.toString().includes("services")) {
-      window.location.href = "services.php";
+      window.location.href = "services";
   }else if (window.location.toString().includes("contact")) {
-      window.location.href = "contact.php";
+      window.location.href = "contact";
   }else{
-    window.location.href = "index.php";
+    window.location.href = "index";
   }
   }
 }
+
+ function fileInputChange(){
+  var a = document.getElementById('sampleFile');
+  var span = document.getElementById('fileSpan');
+  if(a.value !== "")
+  {
+    if(a.files.length > 1){
+      span.innerHTML =  a.files.length + " ملفات " ;
+    }else{
+      var theSplit = a.value.split('\\');
+      span.innerHTML = theSplit[theSplit.length-1];
+    }
+  }
+};

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>lexicologyTranslation | Services</title>
+<title>Lexicology Translation | Services</title>
 
 
 <?php
@@ -19,7 +19,7 @@ include('components/navbar.php')
 
 <h2>Our Services</h2>
 <ol>
-<li><a href="index.php">Home</a></li>
+<li><a href="index">Home</a></li>
 <li>Services</li>
 </ol>
 

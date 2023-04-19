@@ -6,7 +6,7 @@
         <div class="footer-infod">
             <img  src="assets/img/lexicologyTranlationFooterLogo.png" alt="http://lexicologytranslation.com/"  width="90"/>
             <h3>مكتب علوم المعاجم للترجمة </h3>
-            <p class="pb-3">يُقدمّ شركة عبر الشرق للترجمة خدمات ترجمة احترافية ودقيقة وبأسعارٍ معقولة للعملاء الذين يسعون للحصول على ترجمات مضمونة عالية الجودة، وذلك بفضل فريقه الذي يضم أكثر من 300 مترجمًا متميزًا من جميع أنحاء العالم مما يساعده في تقديم ترجماتٍ عالية الجودة وفقًا لمعايير الشركة.
+            <p class="pb-3">يُقدمّ مكتب علوم المعاجم للترجمة خدمات ترجمة احترافية ودقيقة وبأسعارٍ معقولة للعملاء الذين يسعون للحصول على ترجمات مضمونة عالية الجودة، وذلك بفضل فريقه الذي يضم أكثر من 100+ مترجمًا متميزًا من جميع أنحاء العالم مما يساعده في تقديم ترجماتٍ عالية الجودة وفقًا لمعايير الشركة.
             </p>            
             <div class="social-links mt-3">
             <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -19,9 +19,9 @@
         <div class="col-md-3 footer-links">
         <h4>ارتباط هام</h4>
         <ul>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">About Us</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Our Services</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#gallery">Galary</a></li>
+            <li><i class="bx bx-chevron-left"></i> <a href="index_ar">الرئيسية</a></li>
+            <li><i class="bx bx-chevron-left"></i> <a href="services_ar">خدماتنا</a></li>
+            <li><i class="bx bx-chevron-left"></i> <a href="contact_ar">اتصل بنا</a></li>
         </ul>
         </div>
         <div class="col-md-5">
@@ -42,16 +42,16 @@
                     <p style="font-size:1.4rem"> <i class="bi bi-telephone"></i></i></p> 
                 </div>
                 <div class="col-11">
-                   <h4> <a href="callto:9660554237826">هاتف</a> </h4>
-                    <p>+9660554237826</p>
-                    <p>+9660547888187</p>
+                   <h4>هاتف</h4>
+                   <p> <a href="callto:9660554237826">9660554237826+</a></p>
+                    <p> <a href="callto:9660547888187">9660547888187+</a></p>
                 </div>
                 <div class="col-1 text-center">
                     <p style="font-size:1.4rem"><i class="bi bi-chat-square-dots-fill"></i></p> 
                 </div>
                 <div class="col-11">
-                    <h4> <a href="mailto:info@lexicologytranslation.com">البريد الإلكتروني </a> </h4>
-                    info@lexicologytranslation.com
+                    <h4> البريد الإلكتروني </h4>
+                    <p><a href="mailto:info@lexicologytranslation.com">  info@lexicologytranslation.com </a> </P>                  
                 </div>
             </div>
         </div>
@@ -75,17 +75,17 @@
         </div>
         <div class="col-md-3"> 
         <img src="./assets/img/balady.png" width="50" style="opacity:2"> 
-            <p>Balady License: 42054997939 </p>
+            <p>Balady License : 42054997939 </p>
         </div>
     </div>
 
 
     <div class="copyright">
-
-    &copy;  شركة عبر الشرق للترجمة. جميع الحقوق محفوظة 2022 </strong>
+        
+    &copy;  <script>document.write(new Date().getFullYear())</script> مكتب علوم المعاجم للترجمة. جميع الحقوق محفوظة</strong>
     </div>
     <div class="credits">
-    Designed by <a href="https://fb.com/emrankhnss"> &nbsp; I &nbsp; &nbsp;</a> <a href="https://fb.com/mizanussayed">& &nbsp; &nbsp;M</a>
+    صمم بواسطة<a href="https://fb.com/emrankhnss"> &nbsp; I &nbsp; &nbsp;</a> <a href="https://fb.com/mizanussayed">& &nbsp; &nbsp;M</a>
     </div>
 </div>
 </footer>

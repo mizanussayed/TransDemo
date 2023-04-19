@@ -1,9 +1,9 @@
 <meta content="Lexicology Lexicology translation bureau is certified Translation and Training Services center in the Kingdom of Saudi Arabia and around the world." name="description">
-<meta content="certified Translation" name="keywords">
+<meta content="Certified Translation" name="keywords">
 
 
-<link href="./assets/img/logo.png" rel="icon">
-<link href="./assets/img/logo.png" rel="apple-touch-icon">
+<link href="assets/img/icon.png" rel="icon">
+<link href="assets/img/icon.png" rel="apple-touch-icon">
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
 
  <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +18,6 @@
 <link href="assets/css/style.css" rel="stylesheet">
 <style>
 *{
-    /* font-family: 'Neo Sans Arabic Black' !important; */
     font-family: 'Noto Kufi Arabic', sans-serif !important;
 }
 </style>

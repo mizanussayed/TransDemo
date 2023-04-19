@@ -1,9 +1,8 @@
 <meta content="Lexicology Lexicology translation bureau is certified Translation and Training Services center in the Kingdom of Saudi Arabia and around the world." name="description">
-<meta content="certified Translation" name="keywords">
+<meta content="Certified Translation" name="keywords">
 
-
-<link href="./assets/img/logo.png" rel="icon">
-<link href="./assets/img/logo.png" rel="apple-touch-icon">
+<link href="assets/img/icon.png" rel="icon">
+<link href="assets/img/icon.png" rel="apple-touch-icon">
 <link
 href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
 rel="stylesheet">

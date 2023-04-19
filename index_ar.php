@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>lexicologyTranslation | Home</title>
+<title>Lexicology Translation | Home</title>
 <?php
 include('./arabic/header_ar.php')
 ?>
@@ -290,7 +290,7 @@ include('./arabic/navbar_ar.php')
 
     <div class="row mt-3 pt-4">
       <div class="col-md-12 text-center">
-        <a href="services.php" class="btn btn-outline-primary">عرض جميع الخدمات</a>
+        <a href="services_ar" class="btn btn-outline-primary">عرض جميع الخدمات</a>
       </div>
     </div>
   
@@ -302,10 +302,10 @@ include('./arabic/navbar_ar.php')
 
 <div class="section-title" data-aos="fade-up">
   <h2>عن مكتبنا</h2> 
-  <h6 class="mt-3 text-center px-md-5 mx-md-5">
+  <p class="mt-3 text-center px-md-5 mx-md-5">
   مكتب علوم المعاجم للترجمة 
 يقدم أكثر من عقدين من الخبرة المثالية
-</6>
+</p>
 </div>
 
 <div class="row" data-aos="fade-left">
@@ -371,48 +371,66 @@ include('./arabic/navbar_ar.php')
 </div>
 </section>
 
-<!-- End aboutUs Section
-
 <section id="gallery" class="gallery">
   <div class="container">
 
     <div class="section-title" data-aos="fade-up">
-      <h2>Gallery</h2>
-      <p>Check our Gallery</p>
+      <h2>صالة عرض</h2>
+      <p>تحقق من معرض الصور الخاص بنا</p>
     </div>
 
     <div class="row g-0" data-aos="fade-left">
 
-      <div class="col-lg-3 col-md-4">
+      <div class="col-md-4">
         <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-          <a href="assets/img/gallery/gallery-1.jpg" class="gallery-lightbox">
-            <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
+          <a href="assets/img/gallery/lexicologyTranlation.png" class="gallery-lightbox">
+            <img src="assets/img/gallery/lexicologyTranlation.png" alt="lexicology Tranlation Gallary" class="img-fluid">
           </a>
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-4">
+      <div class="col-md-4">
         <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
-          <a href="assets/img/gallery/gallery-2.jpg" class="gallery-lightbox">
-            <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
+        <a href="assets/img/gallery/lexicologyTranlation1.jpg" class="gallery-lightbox">
+            <img src="assets/img/gallery/lexicologyTranlation1.jpg" alt="lexicology Tranlation Gallary" class="img-fluid">
           </a>
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-4">
+      <div class="col-md-4">
         <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
-          <a href="assets/img/gallery/gallery-3.jpg" class="gallery-lightbox">
-            <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
+        <a href="assets/img/gallery/lexicologyTranlation2.jpg" class="gallery-lightbox">
+            <img src="assets/img/gallery/lexicologyTranlation2.jpg" alt="lexicology Tranlation Gallary" class="img-fluid">
           </a>
         </div>
       </div>
 
+      <div class="col-md-4">
+        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
+          <a href="assets/img/gallery/lexicologyTranlation3.jpg" class="gallery-lightbox">
+            <img src="assets/img/gallery/lexicologyTranlation3.jpg" alt="lexicology Tranlation Gallary" class="img-fluid">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+          <a href="assets/img/gallery/lexicologyTranlation4.jpg" class="gallery-lightbox">
+            <img src="assets/img/gallery/lexicologyTranlation4.jpg" alt="lexicology Tranlation Gallary" class="img-fluid">
+          </a>
+        </div>
+      </div>
+      <div class=" col-md-4">
+        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
+          <a href="assets/img/gallery/lexicologyTranlation5.jpg" class="gallery-lightbox">
+            <img src="assets/img/gallery/lexicologyTranlation5.jpg" alt="lexicology Tranlation Gallary" class="img-fluid">
+          </a>
+        </div>
+      </div>
 
+      
     </div>
   </div>
-</section> -->
-
-
+</section>
 
 <section>
   <div class="container-fluid p-4" style="background-color:#F5F4F9">
@@ -421,7 +439,7 @@ include('./arabic/navbar_ar.php')
         <div class="row">
           <div class="col-md-2">
             <br /> &nbsp; &nbsp;
-            <img  src="./assets/img/logo.png" alt="http://lexicologytranslation.com/"  width="100"/>
+            <img  src="assets/img/lexicologyTranlatilationLogo.png" alt="lexicology Translation Logo"  width="100"/>
           </div>
           <div class="col-md-10">
             <h2>هل تحتاج مساعدة؟</h2>

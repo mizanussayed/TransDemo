@@ -302,8 +302,8 @@ Translating official and informal documents in the form of E-mails, memoranda, e
 
 <div class="section-title" data-aos="fade-up">
   <h2>About Us</h2> 
-  <h6 class="mt-3 text-center px-md-5 mx-md-5">Lexicology
-  Lexicology translation bureau works in cooperation with many translation institute from across the world in order to provide certified Translation and Training Services for our customers in the Kingdom of Saudi Arabia and around the world.</6>
+  <p class="mt-3 text-center px-md-5 mx-md-5">
+  Lexicology translation bureau works in cooperation with many translation institute from across the world in order to provide certified Translation and Training Services for our customers in the Kingdom of Saudi Arabia and around the world.</p>
 </div>
 
 <div class="row" data-aos="fade-left">
@@ -367,9 +367,6 @@ Offering more than two decades of experienced perfection for Professional Servic
 </div>
 </div>
 </section>
-
-
-
 <section id="gallery" class="gallery">
   <div class="container">
 
@@ -380,7 +377,7 @@ Offering more than two decades of experienced perfection for Professional Servic
 
     <div class="row g-0" data-aos="fade-left">
 
-      <div class="col-lg-3 col-md-4">
+      <div class="col-md-4">
         <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
           <a href="assets/img/gallery/lexicologyTranlation.png" class="gallery-lightbox">
             <img src="assets/img/gallery/lexicologyTranlation.png" alt="lexicology Tranlation Gallary" class="img-fluid">
@@ -388,7 +385,7 @@ Offering more than two decades of experienced perfection for Professional Servic
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-4">
+      <div class="col-md-4">
         <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
         <a href="assets/img/gallery/lexicologyTranlation1.jpg" class="gallery-lightbox">
             <img src="assets/img/gallery/lexicologyTranlation1.jpg" alt="lexicology Tranlation Gallary" class="img-fluid">
@@ -396,7 +393,7 @@ Offering more than two decades of experienced perfection for Professional Servic
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-4">
+      <div class="col-md-4">
         <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
         <a href="assets/img/gallery/lexicologyTranlation2.jpg" class="gallery-lightbox">
             <img src="assets/img/gallery/lexicologyTranlation2.jpg" alt="lexicology Tranlation Gallary" class="img-fluid">
@@ -404,35 +401,29 @@ Offering more than two decades of experienced perfection for Professional Servic
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-4">
+      <div class="col-md-4">
         <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
           <a href="assets/img/gallery/lexicologyTranlation3.jpg" class="gallery-lightbox">
             <img src="assets/img/gallery/lexicologyTranlation3.jpg" alt="lexicology Tranlation Gallary" class="img-fluid">
           </a>
         </div>
       </div>
-      <div class="col-lg-3 col-md-4">
+      <div class="col-md-4">
         <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
           <a href="assets/img/gallery/lexicologyTranlation4.jpg" class="gallery-lightbox">
             <img src="assets/img/gallery/lexicologyTranlation4.jpg" alt="lexicology Tranlation Gallary" class="img-fluid">
           </a>
         </div>
       </div>
-      <div class="col-lg-3 col-md-4">
+      <div class=" col-md-4">
         <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
           <a href="assets/img/gallery/lexicologyTranlation5.jpg" class="gallery-lightbox">
             <img src="assets/img/gallery/lexicologyTranlation5.jpg" alt="lexicology Tranlation Gallary" class="img-fluid">
           </a>
         </div>
       </div>
-      <div class="col-lg-3 col-md-4">
-        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="450">
-          <a href="assets/img/gallery/lexicologyTranlation6.jpg" class="gallery-lightbox">
-            <img src="assets/img/gallery/lexicologyTranlation6.jpg" alt="lexicology Tranlation Gallary" class="img-fluid">
-          </a>
-        </div>
-      </div>
 
+      
     </div>
   </div>
 </section>
@@ -446,7 +437,7 @@ Offering more than two decades of experienced perfection for Professional Servic
         <div class="row">
           <div class="col-md-2">
             <br /> &nbsp; &nbsp;
-            <img  src="./assets/img/logo.png" alt="http://lexicologytranslation.com/"  width="100"/>
+            <img  src="assets/img/lexicologyTranlatilationLogo.png" alt="http://lexicologytranslation.com/"  width="100"/>
           </div>
           <div class="col-md-10">
             <h2>Do you need assistance?</h2>

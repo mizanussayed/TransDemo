@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>lexicologyTranslation - Contact</title>
+<title>Lexicology Translation | Contact</title>
 
 
 <?php
@@ -14,50 +14,48 @@ include('./components/header.php')
 <?php
 include('components/navbar.php')
 ?>
-<div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/hero-bg.jpg');">
+<div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/contact2.jpg'); background-position: center; background-size:cover;">
     <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
 
-    <h2>Contact Us</h2>
+    <h2>We are always ready To help you</h2>
     <ol>
-        <li><a href="index.php">Home</a></li>
+        <li><a href="index">Home</a></li>
         <li>Contact Us</li>
     </ol>
-
     </div>
 </div>
-
 <section id="contact" class="contact">
-<div class="container">
-
-<div class="section-title" data-aos="fade-up">
-<h2>Contact</h2>
-<p>Contact Us</p>
-</div>
-
+<div class="container mb-2">
 <div class="row">
 
 <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
-    <div class="info">
-    <div class="address">
-        <i class="bi bi-geo-alt"></i>
-        <h4>Location:</h4>
-        <p>Abu Bakr Alrazi St, As Sulimaniyah, Riyadh 11564, Saudi Arabia</p>
-    </div>
 
-    <div class="email">
-        <i class="bi bi-envelope"></i>
-        <h4>Email:</h4>
-        <p>info@lexicologytranslation.com</p>
-    </div>
+  <div class="info">
+        <div class="address">
+            <i class="bi bi-geo-alt"></i>
+            <h4>Location:</h4>
+            <p>
+                    Building No. 7005, Previously French Corner Building <br>
+                    Office No. 8, First Floor, <br>
+                    Abi Bakr Alrazi Street Intersection with Dabab Street <br> 
+                    Sulaimaniyah District – Riyadh – KSA
+                    </p>
+        </div>
 
-    <div class="phone">
-        <i class="bi bi-phone"></i>
-        <h4>Call:</h4>
-        <p>+9660547888187</p>
-        <p>+9660554237826</p>
-    </div>
+        <div class="email">
+            <i class="bi bi-envelope"></i>
+            <h4>Email </h4>
+             <p><a href="mailto:info@lexicologytranslation.com">info@lexicologytranslation.com</a></p>
+        </div>
 
-    </div>
+        <div class="phone">
+            <i class="bi bi-phone"></i>
+            <h4> Call </h4>
+           <p> <a href="callto:9660554237826">+9660554237826</a></p>
+           <p> <a href="callto:9660547888187">+9660547888187</a></p>
+        </div>
+
+ </div>
 
 </div>
 
@@ -79,7 +77,7 @@ include('components/navbar.php')
         <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
     </div>
     <div class="form-group mt-3">
-        <input type="file" class="form-control" name="sampleFile" id="sampleFile" placeholder="Your Sample File">
+        <input type="file" class="form-control" name="sampleFile" id="sampleFile" placeholder="Your Sample File" multiple>
     </div>
     <div class="my-3">
         <div class="loading">Loading</div>
@@ -90,13 +88,13 @@ include('components/navbar.php')
     </form>
 
 </div>
-
 </div>
-<div class="row">
-<div class="col-md-6">
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d906.2500044592057!2d46.70135606953661!3d24.692526117105533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f034a8bc1f4c3%3A0x836aec89f7a7dbf5!2zTGV4aWNvbG9neSBDZXJ0aWZpZWQgVHJhbnNsYXRpb24gT2ZmaWNlINmF2YPYqtioINi52YTZiNmFINin2YTZhdi52KfYrNmFINmE2YTYqtix2KzZhdip!5e0!3m2!1sen!2sbd!4v1681569574142!5m2!1sen!2sbd" width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
+
+<div class="row pt-4">
+ <div class="col-md-12">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d906.2500044592057!2d46.70135606953661!3d24.692526117105533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f034a8bc1f4c3%3A0x836aec89f7a7dbf5!2zTGV4aWNvbG9neSBDZXJ0aWZpZWQgVHJhbnNsYXRpb24gT2ZmaWNlINmF2YPYqtioINi52YTZiNmFINin2YTZhdi52KfYrNmFINmE2YTYqtix2KzZhdip!5e0!3m2!1sen!2sbd!4v1681569574142!5m2!1sen!2sbd" width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ </div>
 </div>
 
 </div>

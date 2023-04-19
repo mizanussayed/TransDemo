@@ -4,14 +4,15 @@
 <header id="header" class="fixed-top d-flex align-items-center header-transparent">
 <div class="container d-flex align-items-center justify-content-between">
     <div class="logo">
-    <h1><a href="index.php" ><img src="assets/img/logo.png" alt="Lexicology Translation"><span style="color:red">Lexicology</span><span style="color:black"> TransLation </span></a> </h1>
+    <!-- <h1><a href="index.php" ><img src="assets/img/logo.png" alt="Lexicology Translation"><span style="color:red">Lexicology</span><span style="color:black"> TransLation </span></a> </h1> -->
+    <h1><a href="index" ><img src="./assets/img/lexicologyTranlatilationLogo.png" alt="Lexicology Translation"></a> </h1>
 </a>
     </div>
     <nav id="navbar" class="navbar">
     <ul>
-        <li><a class="nav-link scrollto" href="index.php">Home</a></li>
-        <li><a class="nav-link scrollto" href="services.php">Services</a></li>
-        <li><a class="nav-link scrollto" href="contact.php">Contact Us</a></li>
+        <li><a class="nav-link scrollto" href="index">Home</a></li>
+        <li><a class="nav-link scrollto" href="services">Services</a></li>
+        <li><a class="nav-link scrollto" href="contact">Contact Us</a></li>
         <li class="dropdown lang-menu">
             <a href="#"><span class="selected-lang">&nbsp; English</span> <i class="bi bi-chevron-down dropdown-indicator"></i>
             </a>
