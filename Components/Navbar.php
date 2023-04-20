@@ -4,8 +4,7 @@
 <header id="header" class="fixed-top d-flex align-items-center header-transparent">
 <div class="container d-flex align-items-center justify-content-between">
     <div class="logo">
-    <!-- <h1><a href="index.php" ><img src="assets/img/logo.png" alt="Lexicology Translation"><span style="color:red">Lexicology</span><span style="color:black"> TransLation </span></a> </h1> -->
-    <h1><a href="index" ><img src="./assets/img/lexicologyTranlatilationLogo.png" alt="Lexicology Translation"></a> </h1>
+    <h1><a href="index" ><img src="./assets/img/lexicologyTranslatilationLogo.png" alt="Lexicology Translation"></a> </h1>
 </a>
     </div>
     <nav id="navbar" class="navbar">

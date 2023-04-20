@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>Lexicology Translation | Home</title>
+<title>Lexicology Translation Bureau | Home</title>
 <?php
 include('./arabic/header_ar.php')
 ?>
@@ -21,7 +21,7 @@ include('./arabic/navbar_ar.php')
         <h1 class="m-md-3">تقديم الخدمة لسوق الأعمال بكل اعتزاز منذ عام 2011</h1>
         <h2>أن نقدم ترجمة راقية تواكب التطور الذي يجري الآن في المملكة ويتماشى مع رؤية المملكة المستقبلية</h2>
         <div class="text-center text-lg-start">
-          <a href="contact_ar.php" class="btn-get-started scrollto">احصل على عرض أسعار</a>
+          <a href="contact_ar" class="btn-get-started">احصل على عرض أسعار</a>
         </div>
       </div>
     </div>
@@ -174,48 +174,39 @@ include('./arabic/navbar_ar.php')
 <section class="category" id="category">   
       <div class="container">
         <div class="section-title" data-aos="fade-up">
-          <h2>شركة الترجمة التي تحتاجها</h2>
-          <p>مهمتنا خدمة سوق العمل السعودي من خلال الجودة والسرعة في أداء العمل بمهنية وإخلاص</p>
-        </div>
+         <h2>شركة الترجمة التي تحتاجها</h2>
+          <p>مهمتنا خدمة سوق العمل السعودي من خلال الجودة والسرعة في أداء العمل بمهنية وإخلاص</p>      </div>
     <div class="row" data-aos="fade-up" data-aos-delay="100">
         <div class="col-md-6">
           <div class="row">
-            <div class="col-md-6">
-              <img src="./assets/img/check-mark-1.webp" /> <br/> <br/>
-              <h3 style="font-weight: 900; color: black;">ترجمة بشرية 100%</h3>
+            <div class="py-2">
+            <div class="py-2">
+            <h4 style="font-weight: 900; color: black;"> <img src="./assets/img/check-mark-1.svg"  width="40px" /> &nbsp; &nbsp; الالتزام بالجودة</h4>
+              <p> نلتزم بتقديم مستوى ثابت من الجودة في جميع خدماتنا. نحن نهتم بنجاحك. أهدافك هي أهدافنا ويسعدنا مساعدتكم  </p>
+            </div>
+              <h4 style="font-weight: 900; color: black;"> <img src="./assets/img/check-mark-1.svg"  width="40px" /> &nbsp; &nbsp; ترجمة بشرية 100%</h4>
               <p>
               ترجمة بشرية كاملة عالية الجودة - الوثائق تحظى برعاية بشرية تامة
               </p>
             </div>
-            <div class="col-md-6">
-              <img src="./assets/img/check-mark-1.webp" /> <br/> <br/>
-              <h3 style="font-weight: 900; color: black;">السرية</h3>
+            <div class="py-">
+            <h4 style="font-weight: 900; color: black;"> <img src="./assets/img/check-mark-1.svg"  width="40px" /> &nbsp; &nbsp; السرية</h4>
               <p>
-              نحافظ على سياسة سرية صارمة في جميع ارتباطاتنا ويمكننا توقيع اتفاقيات عدم إفشاء إذا طُلب منا لإثبات رعايتنا الواجبة.
-              </p>
+              نحافظ على سياسة سرية صارمة في جميع ارتباطاتنا ويمكننا توقيع اتفاقيات عدم إفشاء إذا طُلب منا لإثبات رعايتنا الواجبة.  </p>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-6">
-              <img src="./assets/img/check-mark-1.webp" /> <br/> <br/>
-              <h3 style="font-weight: 900; color: black;">النزاهة</h3>
+            <div class="py-2">
+            <h4 style="font-weight: 900; color: black;"> <img src="./assets/img/check-mark-1.svg"  width="40px" /> &nbsp; &nbsp; النزاهة</h4>
               <p>
               نحن نقدر الصدق والأمانة والشفافية ، ونحن ملتزمون بمنحك أفضل تجربة في جميع خدماتنا.
-              </p>
-            </div>
-            <div class="col-md-6">
-              <img src="./assets/img/check-mark-1.webp" /> <br/> <br/>
-              <h3 style="font-weight: 900; color: black;">الالتزام بالجودة</h3>
-              <p>
-              نلتزم بتقديم مستوى ثابت من الجودة في جميع خدماتنا. نحن نهتم بنجاحك. أهدافك هي أهدافنا ويسعدنا مساعدتكم 
               </p>
             </div>
           </div>
         </div>
         <div class="col-md-6">
           <br />
-          <br />
-          <img  src="./assets/img/gallery/gallery-1.jpg"   class="img-fluid"/>
+          <img  src="assets/img/lexicologyTranslation.png"   class="img-fluid"/>
         </div>
       </div>
     </div>
@@ -337,7 +328,7 @@ include('./arabic/navbar_ar.php')
     <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
       <div class="count-box">
         <i class="bi bi-journal-richtext"></i>
-        <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
+        <span data-purecounter-start="0" data-purecounter-end="1521" data-purecounter-duration="1"
           class="purecounter"></span>
         <p>المشاريع</p>
       </div>
@@ -346,7 +337,7 @@ include('./arabic/navbar_ar.php')
     <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
       <div class="count-box">
         <i class="bi bi-headset"></i>
-        <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1"
+        <span data-purecounter-start="0" data-purecounter-end="2463" data-purecounter-duration="1"
           class="purecounter"></span>
         <p>ساعات الدعم</p>
       </div>
@@ -355,7 +346,7 @@ include('./arabic/navbar_ar.php')
     <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
       <div class="count-box">
         <i class="bi bi-people"></i>
-        <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1"
+        <span data-purecounter-start="0" data-purecounter-end="160" data-purecounter-duration="1"
           class="purecounter"></span>
         <p>العمال الجادون</p>
       </div>
@@ -364,8 +355,6 @@ include('./arabic/navbar_ar.php')
   </div>
 
   </div>
-
-
 
 </div>
 </div>
@@ -383,46 +372,46 @@ include('./arabic/navbar_ar.php')
 
       <div class="col-md-4">
         <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-          <a href="assets/img/gallery/lexicologyTranlation.png" class="gallery-lightbox">
-            <img src="assets/img/gallery/lexicologyTranlation.png" alt="lexicology Tranlation Gallary" class="img-fluid">
+          <a href="assets/img/gallery/lexicologyTranslation.png" class="gallery-lightbox">
+            <img src="assets/img/gallery/lexicologyTranslation.png" alt="lexicology Translation Gallary" class="img-fluid">
           </a>
         </div>
       </div>
 
       <div class="col-md-4">
         <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
-        <a href="assets/img/gallery/lexicologyTranlation1.jpg" class="gallery-lightbox">
-            <img src="assets/img/gallery/lexicologyTranlation1.jpg" alt="lexicology Tranlation Gallary" class="img-fluid">
+        <a href="assets/img/gallery/lexicologyTranslation1.jpg" class="gallery-lightbox">
+            <img src="assets/img/gallery/lexicologyTranslation1.jpg" alt="lexicology Translation Gallary" class="img-fluid">
           </a>
         </div>
       </div>
 
       <div class="col-md-4">
         <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
-        <a href="assets/img/gallery/lexicologyTranlation2.jpg" class="gallery-lightbox">
-            <img src="assets/img/gallery/lexicologyTranlation2.jpg" alt="lexicology Tranlation Gallary" class="img-fluid">
+        <a href="assets/img/gallery/lexicologyTranslation2.jpg" class="gallery-lightbox">
+            <img src="assets/img/gallery/lexicologyTranslation2.jpg" alt="lexicology Translation Gallary" class="img-fluid">
           </a>
         </div>
       </div>
 
       <div class="col-md-4">
         <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
-          <a href="assets/img/gallery/lexicologyTranlation3.jpg" class="gallery-lightbox">
-            <img src="assets/img/gallery/lexicologyTranlation3.jpg" alt="lexicology Tranlation Gallary" class="img-fluid">
+          <a href="assets/img/gallery/lexicologyTranslation3.jpg" class="gallery-lightbox">
+            <img src="assets/img/gallery/lexicologyTranslation3.jpg" alt="lexicology Translation Gallary" class="img-fluid">
           </a>
         </div>
       </div>
       <div class="col-md-4">
         <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
-          <a href="assets/img/gallery/lexicologyTranlation4.jpg" class="gallery-lightbox">
-            <img src="assets/img/gallery/lexicologyTranlation4.jpg" alt="lexicology Tranlation Gallary" class="img-fluid">
+          <a href="assets/img/gallery/lexicologyTranslation4.jpg" class="gallery-lightbox">
+            <img src="assets/img/gallery/lexicologyTranslation4.jpg" alt="lexicology Translation Gallary" class="img-fluid">
           </a>
         </div>
       </div>
       <div class=" col-md-4">
         <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-          <a href="assets/img/gallery/lexicologyTranlation5.jpg" class="gallery-lightbox">
-            <img src="assets/img/gallery/lexicologyTranlation5.jpg" alt="lexicology Tranlation Gallary" class="img-fluid">
+          <a href="assets/img/gallery/lexicologyTranslation5.jpg" class="gallery-lightbox">
+            <img src="assets/img/gallery/lexicologyTranslation5.jpg" alt="lexicology Translation Gallary" class="img-fluid">
           </a>
         </div>
       </div>
@@ -439,10 +428,10 @@ include('./arabic/navbar_ar.php')
         <div class="row">
           <div class="col-md-2">
             <br /> &nbsp; &nbsp;
-            <img  src="assets/img/lexicologyTranlatilationLogo.png" alt="lexicology Translation Logo"  width="100"/>
+            <img  src="assets/img/lexicologyTranslatilationLogo.png" alt="lexicology Translation Logo"  width="100"/>
           </div>
           <div class="col-md-10">
-            <h2>هل تحتاج مساعدة؟</h2>
+            <h2 class="bolder">هل تحتاج مساعدة؟</h2>
             <p>
 نحن هنا لمساعدتك في الحصول على عرض أسعار مناسب للمستندات، وترجمة مواقع الويب وملفات البي دي اف وترجمة البرامج والمشاريع الأخرى المتعلقة بالترجمة.
 </p>
@@ -453,7 +442,7 @@ include('./arabic/navbar_ar.php')
         <div class="row">
           <div class="col-md-4"> 
             <br />  &nbsp; &nbsp;
-          <a href="tel:+9660554237826" style="font-size:20px"> 
+          <a href="tel:+966554237826" style="font-size:20px"> 
           <i class="bi bi-telephone-fill"></i>&nbsp; 0554237826 </a>
           </div>
           <div class="col-md-8">

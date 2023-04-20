@@ -1,4 +1,4 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -33,6 +33,80 @@ h6 {
 --------------------------------------------------------------*/
 #preloader {
   position: fixed;
+  z-index: 9999; 
+  bottom: 0;
+  right: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.preloader {
+  margin: auto;
+  background: url("../img/icon.png") no-repeat center;
+  background-size: 100px;
+  width: 100px;
+  height: 100px;
+  margin-top: 20%;
+}
+
+
+/* .preloader2 {
+background: url("../img/spin.gif") no-repeat center;
+border-radius: 50%;
+width: 65px;
+height: 65px;
+animation: spin 60s ease-in-out infinite ;
+position: relative;
+margin: auto;
+top: -85px;
+left:-5px;
+} */
+
+.preloader2d {
+border: 5px solid #f3f3f3;
+border-top: 5px solid darkblue;
+border-radius: 50%;
+width: 65px;
+height: 65px;
+animation: spin 1s ease-in-out infinite ;
+position: relative;
+margin: auto;
+top: -85px;
+left:-5px;
+}
+
+@keyframes spin {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+}
+
+
+
+.preloader2 {
+  position: relative;
+  margin: auto;
+  top: -100px;
+  left: -4px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  padding: 5px;
+  background:
+    conic-gradient(from 135deg at top,#00008B 90deg, #0000 0) 0 calc(50% - 4px)/16px 8px,
+    radial-gradient(farthest-side at bottom left,#0000 calc(100% - 6px),#00008B calc(100% - 5px) 99%,#0000) top right/50%  50% content-box content-box,
+    radial-gradient(farthest-side at top    ,#0000 calc(100% - 6px),#00008B calc(100% - 5px) 99%,#0000) bottom   /100% 50% content-box content-box;
+  background-repeat: no-repeat;
+  animation:spin 3s infinite linear;
+}
+
+
+#preloaderd {
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -40,20 +114,25 @@ h6 {
   z-index: 9999;
   overflow: hidden;
   background: #fff;
+  text-align: center;
 }
 
-#preloader:before {
+#preloaderd:before {
   content: "";
   position: fixed;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
-  border: 6px solid #1acc8d;
+  top: calc(50% - 10px);
+  left: calc(50% - 10px);
+  border: 3px solid darkblue;
   border-top-color: #d2f9eb;
   border-radius: 50%;
   width: 60px;
   height: 60px;
   animation: animate-preloader 1s linear infinite;
+  /* background: url("../img/icon.png"); */
+  background: url("../img/preloader.png");
+  background-size: cover;
 }
+
 
 @keyframes animate-preloader {
   0% {
@@ -65,6 +144,31 @@ h6 {
   }
 }
 
+
+.preloaderd {
+  margin: auto;
+  top: 80%;
+  left:50%;
+  background: url("../img/icon.png") no-repeat center;
+  background-size: 100px;
+  width: 300px;
+  height: 300px;
+}
+
+
+.preloader2d {
+  border: 3px solid darkblue;
+  border-top-color: #d2f9eb;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  animation: spin 1s ease-in-out infinite;
+  position: relative;
+  margin: auto;
+}
+
+
+
 /*--------------------------------------------------------------
 # Back to top button and whatsapp
 --------------------------------------------------------------*/
@@ -73,16 +177,15 @@ h6 {
   position: fixed;
   opacity: 1;
   right: 15px;
-  bottom: 0;
-  top:0;
-  margin: auto;
+  top: 50%;
+  bottom: 50%;
   z-index: 996;
   border-radius: 50px;
   transition: all 0.4s;
   visibility: visible;
 }
 
-.whatsapp  img{
+.whatsapp img {
   width: 3rem;
   height: 3rem;
   border-radius: 50px;
@@ -140,9 +243,12 @@ h6 {
   /* background: rgba(1, 2, 142, 1); */
   /* background: #E5F5FC; */
   /* background: #D7F9FB; */
-  background: #DCDDDF;
+  /* background: #DCDDDF; */
   /* background: #D3D3D3; */
-  border-bottom: 1px solid #555555;
+  /* background: #919191; */
+  background: #eaf4ff;
+  /* border-bottom: 1px solid #555555; */
+  border-bottom: 2px solid darkblue;
 }
 
 #header.header-scrolled {
@@ -396,6 +502,55 @@ h6 {
   display: block;
 }
 
+.lang-menu .selected-lang,
+.selected-lang-ar {
+  display: flex;
+  line-height: 2;
+}
+
+.selected-lang::before {
+  content: '';
+  display: inline-block;
+  margin-top: .5rem;
+  width: 20px;
+  height: 20px;
+  background-image: url('../img/en.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.selected-lang-ar::before {
+  content: '';
+  display: inline-block;
+  margin-top: .5rem;
+  width: 20px;
+  height: 20px;
+  background-image: url('../img/arabic.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.lang-menu ul li a:before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.en:before {
+  background-image: url("../img/en.png");
+}
+
+.ar:before {
+  background-image: url("../img/arabic.png");
+}
+
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -580,15 +735,16 @@ section {
 
 .section-title h2::before {
   content: "";
-  width: 120px;
+  width: 60px;
   height: 1px;
   display: inline-block;
   background: #1acc8d;
   margin: 4px 10px;
 }
+
 .section-title h2::after {
   content: "";
-  width: 120px;
+  width: 60px;
   height: 1px;
   display: inline-block;
   background: #1acc8d;
@@ -716,6 +872,7 @@ section {
   left: 0;
   right: 0;
 }
+
 .breadcrumbs h2 {
   font-size: 56px;
   font-weight: 500;
@@ -827,6 +984,7 @@ section {
   padding: 80px 0;
   position: relative;
 }
+
 .testimonials::before {
   content: "";
   position: relative;
@@ -852,23 +1010,31 @@ section {
   border: 6px solid rgba(255, 255, 255, 0.15);
   margin: 0 auto;
   height: auto;
-  line-height:inherit;
+  line-height: inherit;
 }
 
 @media (min-width: 1024px) {
   .testimonials {
     background-attachment: fixed;
   }
-  .swiper-slide{max-width:calc(100% / var(--e-image-carousel-slides-to-show, 6))}
+
+  .swiper-slide {
+    max-width: calc(100% / var(--e-image-carousel-slides-to-show, 6))
+  }
 }
 
 @media (max-width: 1024px) {
-  .swiper-slide{max-width:calc(100% / var(--e-image-carousel-slides-to-show, 4))}
+  .swiper-slide {
+    max-width: calc(100% / var(--e-image-carousel-slides-to-show, 4))
+  }
 }
 
 @media (max-width: 768px) {
-  .swiper-slide{max-width:calc(100% / var(--e-image-carousel-slides-to-show, 3))}
+  .swiper-slide {
+    max-width: calc(100% / var(--e-image-carousel-slides-to-show, 3))
+  }
 }
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -892,9 +1058,8 @@ section {
 }
 
 
-.contact .infoArabic h4, 
-.contact .infoArabic p
-{
+.contact .infoArabic h4,
+.contact .infoArabic p {
   padding-right: 60px;
 }
 
@@ -915,12 +1080,13 @@ section {
 
 .contact .infoArabic i {
   float: right;
-  }
-.contact .infoArabic h4, 
-.contact .infoArabic p
-{
+}
+
+.contact .infoArabic h4,
+.contact .infoArabic p {
   padding-right: 60px;
 }
+
 .contact .info .email,
 .contact .info .phone {
   margin-top: 40px;
@@ -1024,8 +1190,13 @@ section {
 .contact-file-div label {
   background-color: #dde0e3;
   cursor: pointer;
-  }
-  
+}
+
+.bolder {
+  font-weight: 900;
+  color: black
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1084,7 +1255,6 @@ section {
   color: #fff;
   text-decoration: none;
 }
-
 
 
 #footer .footer-top h4 {
@@ -1151,76 +1321,3 @@ section {
     margin: -20px 0 30px 0;
   }
 }
-
-
-/* English Styles */
-body[lang="en"] main {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-
-/* Arabic Styles */
-body[lang="ar"] main {
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: right;
-  background-color: red;
-}
-
-h1[dir="rtl"] {
-  margin-right: 20px;
-}
-
-p[lang="ar"] {
-  direction: rtl;
-  text-align: right;
-}
-
-
-.lang-menu .selected-lang, .selected-lang-ar {
-  display: flex;   
-  line-height: 2;
-}
- .selected-lang::before {
-  content: '';
-  display: inline-block;
-  margin-top: .5rem;
-  width: 20px;
-  height: 20px;
-  background-image: url('../img/en.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
- .selected-lang-ar::before {
-  content: '';
-  display: inline-block;
-  margin-top: .5rem;
-  width: 20px;
-  height: 20px;
-  background-image: url('../img/arabic.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-
-.lang-menu ul li a:before {
-  content: '';
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  vertical-align: middle;
-  margin-right: 10px;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.en:before {
-  background-image: url("../img/en.png");
-}
-.ar:before {
-  background-image: url("../img/arabic.png");
-}
-
-

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us" dir="ltr">
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>lexicologyTranslation | Home</title>
+<title>Lexicology Translation Bureau | Home</title>
 <?php
 include('./components/header.php')
 ?>
@@ -18,10 +18,10 @@ include('components/navbar.php')
   <div class="row justify-content-between">
     <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
       <div data-aos="zoom-out">
-        <h1>OFFERING SARVE TO BUSINESS MARKET WITH PRIDES SINCE 2011</h1>
+        <h1>Offering service to the business market with pride since 2011</h1>
         <h2>To provide a sophisticated translation that keeps pace with the development taking place in the Kingdom and is in line with the Kingdom's future vision.</h2>
         <div class="text-center text-lg-start">
-          <a href="contact.php" class="btn-get-started scrollto">Get A QUOTATION</a>
+          <a href="contact" class="btn-get-started">Get A Quote</a>
         </div>
       </div>
     </div>
@@ -53,7 +53,7 @@ include('components/navbar.php')
       consistent level of quality in all our services. We care abuout your success. Your goals are ours, and we want
       to help you to achieve your goals </p>
     </div>
-    <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+    <div class="testimonials-slider swiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <div class="testimonial-item">
@@ -77,9 +77,14 @@ include('components/navbar.php')
         </div>
         <div class="swiper-slide">
           <div class="testimonial-item">
-            <img src="./assets/img/english/GACA.png " class="testimonial-img"  alt="GACA" /> 
+            <img src="assets/img/english/OIP.jpeg" class="testimonial-img"  alt=" Riad Champer of commarce" /> 
           </div> 
-          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <img src="./assets/img/english/Alinma.png " class="testimonial-img"  alt="Alinma bank" /> 
+          </div> 
+        </div>
         <div class="swiper-slide">          
           <div class="testimonial-item">
             <img src="./assets/img/english/GAS.png" class="testimonial-img"  alt="GAS" />
@@ -176,48 +181,44 @@ include('components/navbar.php')
 <section class="category" id="category">   
       <div class="container">
         <div class="section-title" data-aos="fade-up">
-          <h2>The Translation Company You Need</h2>
+          <h2>CERTIFIED HUMAN TRANSLATIONS TO HELP YOU GROW</h2>
           <p>Our Mission is Serving the Saudi business market through in a high quality and speed in performing work with professionalism and sincerity.</p>
         </div>
     <div class="row" data-aos="fade-up" data-aos-delay="100">
         <div class="col-md-6">
           <div class="row">
-            <div class="col-md-6">
-              <img src="./assets/img/check-mark-1.webp" /> <br/> <br/>
-              <h3 style="font-weight: 900; color: black;">100% Human Translated</h3>
+            <div class="py-2">
+            <div class="py-2">
+            <h4 style="font-weight: 900; color: black;"> <img src="./assets/img/check-mark-1.svg"  width="40px" /> &nbsp; &nbsp; Best Quality - Low Price</h4>
+              <p>
+              We are highly flexible and are proud to work with clients who appreciate high quality work in an environment of mutual respect. This is the thinking behind our translation services where we have developed this 
+              concept since our office was founded and have been able to establish a highly productive and consistent quality translation workflow.
+            </p>
+            </div>
+              <h4 style="font-weight: 900; color: black;"> <img src="./assets/img/check-mark-1.svg"  width="40px" /> &nbsp; &nbsp; 100% Human Translated</h4>
               <p>
               High-quality full human translation - documents are much human cared about.
               </p>
             </div>
-            <div class="col-md-6">
-              <img src="./assets/img/check-mark-1.webp" /> <br/> <br/>
-              <h3 style="font-weight: 900; color: black;">Confidentiality</h3>
+            <div class="py-">
+            <h4 style="font-weight: 900; color: black;"> <img src="./assets/img/check-mark-1.svg"  width="40px" /> &nbsp; &nbsp; Confidentiality</h4>
               <p>
-              We maintain a strict confidentiality policy in all our engagements and can sign non-disclosure agreements if required to demonstrate our due care.
+              We maintain a strict confidentiality policy in all our engagements and can sign non-disclosure agreements if required to demonstrate our due care. 
               </p>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-6">
-              <img src="./assets/img/check-mark-1.webp" /> <br/> <br/>
-              <h3 style="font-weight: 900; color: black;">Integrity</h3>
+            <div class="py-2">
+            <h4 style="font-weight: 900; color: black;"> <img src="./assets/img/check-mark-1.svg"  width="40px" /> &nbsp; &nbsp; Integrity</h4>
               <p>
-              We value honesty, honesty, and transparency, and we are committed to giving you the best experience in all of our services.
-              </p>
-            </div>
-            <div class="col-md-6">
-              <img src="./assets/img/check-mark-1.webp" /> <br/> <br/>
-              <h3 style="font-weight: 900; color: black;">Quality Commitment</h3>
-              <p>
-              We commit to provide a consistent level of quality in all our services. We care about your success. Your goals are ours, and we are happy to help you.
+              We value sincerity, honesty, and transparency, and we are committed to giving you the best experience in all of our services. 
               </p>
             </div>
           </div>
         </div>
         <div class="col-md-6">
           <br />
-          <br />
-          <img  src="assets/img/gallery/lexicologyTranlation.png"   class="img-fluid"/>
+          <img  src="assets/img/lexicologyTranslation.png"   class="img-fluid"/>
         </div>
       </div>
     </div>
@@ -230,59 +231,61 @@ include('components/navbar.php')
     <div class="section-title" data-aos="fade-up">
       <span></span>
       <h2>Our Services</h2>
-      <p>Armed with high-rated translators fromdifferent countries, we can translate anything into and from over 10+ languages, guaranteeing client satisfaction.</p>
+      <p>Armed with high-rated 150+ Translators from many countries around the world, Lexicology Translation can translate text into and from over 150+ languages, guaranteeing client satisfaction.</p>
     </div>
       <div class="row">
+
+      <div class="col-md-4 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><img  src="./assets/img/services/Business-Translation.png"/> </div>
+            <h4 class="title"><a href="">Business Translation</a></h4>
+            <p class="description"> 
+            Your international commercial needs are evaluated in this category. We offer the best service to enable you to access new market and maintain your available international relationships smoothly and freely.</p>
+          </div>
+        </div>
 
         <div class="col-md-4 d-flex align-items-stretch mb-5 mb-lg-0">
           <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
             <div class="icon"><img  src="./assets/img/services/Academic-Translation.png"/></div>
             <h4 class="title"><a href="">Academic Transtation</a></h4>
-            <p class="description">Academic texts are translated by our experienced translators who are competent and have the sufficient terminology.</p>
+            <p class="description">Academic texts are translated by experienced translators with sufficient lexical terminology.</p>
           </div>
         </div>
 
         <div class="col-md-4 d-flex align-items-stretch mb-5 mb-lg-0">
           <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><img  src="./assets/img/services/Document-Translation.png"/> </div>
-            <h4 class="title"><a href="">Document Tranlation</a></h4>
-            <p class="description">We provide translations for any type of documents such as business communications, websites, advertising and marketing.</p>
-          </div>
-        </div>
-
-        <div class="col-md-4 d-flex align-items-stretch mb-5 mb-lg-0">
-          <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon"><img  src="./assets/img/services/Business-Translation.png"/> </div>
-            <h4 class="title"><a href="">Business Tranlation</a></h4>
-            <p class="description">Business Translation 
-Translating official and informal documents in the form of E-mails, memoranda, etc</p>
+            <h4 class="title"><a href="">Document Translation</a></h4>
+            <p class="description">We provide translation for any type of documents, for example, business communications, websites, advertisements, accounting, medical, and marketing documents, and all fields.</p>
           </div>
         </div>
 
       </div>
 
       <div class="row pt-5">
-        <div class="col-md-4 d-flex align-items-stretch mb-5 mb-lg-0">
-          <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon"><img  src="./assets/img/services/Art-Literary.png"/> </div>
-            <h4 class="title"><a href="">Art & Literary Tranlation</a></h4>
-            <p class="description">This type of translation requires expertise in the subject of art and literature translations, which are done by our expert translators.</p>
-          </div>
-        </div>
 
-        <div class="col-md-4 d-flex align-items-stretch mb-5 mb-lg-0">
+      
+      <div class="col-md-4 d-flex align-items-stretch mb-5 mb-lg-0">
           <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><img  src="./assets/img/services/Legal-Translation.png"/> </div>
-            <h4 class="title"><a href="">Legal Tranlation</a></h4>
+            <h4 class="title"><a href="">Legal Translation</a></h4>
             <p class="description">Our legal translation services cover all kinds of legal contracts, legal prospectuses, legal accounts brochures, etc.</p>
           </div>
         </div>
 
-        <div class="col-md-4 d-flex align-items-stretch mb-5 mb-lg-0">
+      <div class="col-md-4 d-flex align-items-stretch mb-5 mb-lg-0">
           <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><img  src="./assets/img/services/Medical-Translation.png"/> </div>
-            <h4 class="title"><a href="">Medical Tranlation</a></h4>
-            <p class="description">We require that all medical translators must be highly educated, highly trained and experienced in the field of medical.</p>
+            <h4 class="title"><a href="">Medical Translation</a></h4>
+            <p class="description">We require that all medical translators and translation editors must be highly educated, received proper training, and have actual work experience in the fields of medicine.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><img  src="./assets/img/services/Art-Literary.png"/> </div>
+            <h4 class="title"><a href="">Art & Literary Translation</a></h4>
+            <p class="description">This type of translation requires expertise in the subject of art and literature translations, which are done by our translators who are experts in this field.</p>
           </div>
         </div>
 
@@ -290,7 +293,7 @@ Translating official and informal documents in the form of E-mails, memoranda, e
 
     <div class="row mt-3 pt-4">
       <div class="col-md-12 text-center">
-        <a href="services.php" class="btn btn-outline-primary">View All Services</a>
+        <a href="services" class="btn btn-outline-primary">View All Services</a>
       </div>
     </div>
   
@@ -328,7 +331,7 @@ Offering more than two decades of experienced perfection for Professional Servic
     <div class="col-lg-3 col-md-6">
       <div class="count-box">
         <i class="bi bi-emoji-smile"></i>
-        <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
+        <span data-purecounter-start="0" data-purecounter-end="832" data-purecounter-duration="1"
           class="purecounter"></span>
         <p>Happy Clients</p>
       </div>
@@ -337,7 +340,7 @@ Offering more than two decades of experienced perfection for Professional Servic
     <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
       <div class="count-box">
         <i class="bi bi-journal-richtext"></i>
-        <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
+        <span data-purecounter-start="0" data-purecounter-end="1521" data-purecounter-duration="1"
           class="purecounter"></span>
         <p>Projects</p>
       </div>
@@ -346,7 +349,7 @@ Offering more than two decades of experienced perfection for Professional Servic
     <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
       <div class="count-box">
         <i class="bi bi-headset"></i>
-        <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1"
+        <span data-purecounter-start="0" data-purecounter-end="2463" data-purecounter-duration="1"
           class="purecounter"></span>
         <p>Hours Of Support</p>
       </div>
@@ -355,7 +358,7 @@ Offering more than two decades of experienced perfection for Professional Servic
     <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
       <div class="count-box">
         <i class="bi bi-people"></i>
-        <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
+        <span data-purecounter-start="0" data-purecounter-end="160" data-purecounter-duration="1"
           class="purecounter"></span>
         <p>Hard Workers</p>
       </div>
@@ -379,46 +382,46 @@ Offering more than two decades of experienced perfection for Professional Servic
 
       <div class="col-md-4">
         <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-          <a href="assets/img/gallery/lexicologyTranlation.png" class="gallery-lightbox">
-            <img src="assets/img/gallery/lexicologyTranlation.png" alt="lexicology Tranlation Gallary" class="img-fluid">
+          <a href="assets/img/gallery/lexicologyTranslation.png" class="gallery-lightbox">
+            <img src="assets/img/gallery/lexicologyTranslation.png" alt="lexicology Translation Gallary" class="img-fluid">
           </a>
         </div>
       </div>
 
       <div class="col-md-4">
         <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
-        <a href="assets/img/gallery/lexicologyTranlation1.jpg" class="gallery-lightbox">
-            <img src="assets/img/gallery/lexicologyTranlation1.jpg" alt="lexicology Tranlation Gallary" class="img-fluid">
+        <a href="assets/img/gallery/lexicologyTranslation1.jpg" class="gallery-lightbox">
+            <img src="assets/img/gallery/lexicologyTranslation1.jpg" alt="lexicology Translation Gallary" class="img-fluid">
           </a>
         </div>
       </div>
 
       <div class="col-md-4">
         <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
-        <a href="assets/img/gallery/lexicologyTranlation2.jpg" class="gallery-lightbox">
-            <img src="assets/img/gallery/lexicologyTranlation2.jpg" alt="lexicology Tranlation Gallary" class="img-fluid">
+        <a href="assets/img/gallery/lexicologyTranslation2.jpg" class="gallery-lightbox">
+            <img src="assets/img/gallery/lexicologyTranslation2.jpg" alt="lexicology Translation Gallary" class="img-fluid">
           </a>
         </div>
       </div>
 
       <div class="col-md-4">
         <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
-          <a href="assets/img/gallery/lexicologyTranlation3.jpg" class="gallery-lightbox">
-            <img src="assets/img/gallery/lexicologyTranlation3.jpg" alt="lexicology Tranlation Gallary" class="img-fluid">
+          <a href="assets/img/gallery/lexicologyTranslation3.jpg" class="gallery-lightbox">
+            <img src="assets/img/gallery/lexicologyTranslation3.jpg" alt="lexicology Translation Gallary" class="img-fluid">
           </a>
         </div>
       </div>
       <div class="col-md-4">
         <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
-          <a href="assets/img/gallery/lexicologyTranlation4.jpg" class="gallery-lightbox">
-            <img src="assets/img/gallery/lexicologyTranlation4.jpg" alt="lexicology Tranlation Gallary" class="img-fluid">
+          <a href="assets/img/gallery/lexicologyTranslation4.jpg" class="gallery-lightbox">
+            <img src="assets/img/gallery/lexicologyTranslation4.jpg" alt="lexicology Translation Gallary" class="img-fluid">
           </a>
         </div>
       </div>
       <div class=" col-md-4">
         <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-          <a href="assets/img/gallery/lexicologyTranlation5.jpg" class="gallery-lightbox">
-            <img src="assets/img/gallery/lexicologyTranlation5.jpg" alt="lexicology Tranlation Gallary" class="img-fluid">
+          <a href="assets/img/gallery/lexicologyTranslation5.jpg" class="gallery-lightbox">
+            <img src="assets/img/gallery/lexicologyTranslation5.jpg" alt="lexicology Translation Gallary" class="img-fluid">
           </a>
         </div>
       </div>
@@ -436,12 +439,11 @@ Offering more than two decades of experienced perfection for Professional Servic
       <div class="col-md-6">
         <div class="row">
           <div class="col-md-2">
-            <br /> &nbsp; &nbsp;
-            <img  src="assets/img/lexicologyTranlatilationLogo.png" alt="http://lexicologytranslation.com/"  width="100"/>
+            <img  src="assets/img/lexicologyTranslatilationLogo.png" alt="http://lexicologytranslation.com/"  width="100"/>
           </div>
           <div class="col-md-10">
-            <h2>Do you need assistance?</h2>
-            <p>We are here to help with getting a relevant quote for complex documents, website translation, PDF, software translation, and other translation-related projects.</p>
+            <h2 class="bolder">Do you need any help ?</h2>
+            <p>We are here to assist you move forward by leveraging our rich experience and team of experts.</p>
           </div>
         </div>
       </div>
@@ -449,8 +451,8 @@ Offering more than two decades of experienced perfection for Professional Servic
         <div class="row">
           <div class="col-md-4"> 
             <br />  &nbsp; &nbsp;
-          <a href="tel:+9660554237826" style="font-size:20px"> 
-          <i class="bi bi-telephone-fill"></i>&nbsp; 0554237826 </a>
+          <a href="tel:++966554237826" style="font-size:20px"> 
+          <i class="bi bi-telephone-fill"></i>&nbsp; 0554237826</a>
           </div>
           <div class="col-md-8">
              <br /> 

@@ -4,15 +4,16 @@
     <div class="row">
         <div class="col-md-4">
         <div class="footer-infod">
-            <img  src="assets/img/lexicologyTranlationFooterLogo.png" alt="http://lexicologytranslation.com/"  width="90"/>
+            <img  src="assets/img/lexicologyTranslationFooterLogo.png" alt="lexicology translation logo"  width="90"/>
             <h3>مكتب علوم المعاجم للترجمة </h3>
-            <p class="pb-3">يُقدمّ مكتب علوم المعاجم للترجمة خدمات ترجمة احترافية ودقيقة وبأسعارٍ معقولة للعملاء الذين يسعون للحصول على ترجمات مضمونة عالية الجودة، وذلك بفضل فريقه الذي يضم أكثر من 100+ مترجمًا متميزًا من جميع أنحاء العالم مما يساعده في تقديم ترجماتٍ عالية الجودة وفقًا لمعايير الشركة.
+            <p class="pb-3">يُقدمّ مكتب علوم المعاجم للترجمة خدمات ترجمة احترافية ودقيقة وبأسعارٍ معقولة للعملاء الذين يسعون للحصول على ترجمات مضمونة عالية الجودة، وذلك بفضل فريقه الذي يضم أكثر من 150+ مترجمًا متميزًا من جميع أنحاء العالم مما يساعده في تقديم ترجماتٍ عالية الجودة وفقًا لمعايير الشركة.
             </p>            
             <div class="social-links mt-3">
             <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
             <a href="https://www.facebook.com/profile.php?id=100091641174711" class="facebook"><i class="bx bxl-facebook"></i></a>
             <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
             <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            <a href="#" class="linkedin"><i class="bx bxl-gmail"></i></a>
             </div>
         </div>
         </div>
@@ -43,8 +44,8 @@
                 </div>
                 <div class="col-11">
                    <h4>هاتف</h4>
-                   <p> <a href="callto:9660554237826">9660554237826+</a></p>
-                    <p> <a href="callto:9660547888187">9660547888187+</a></p>
+                   <p> <a href="callto:+966554237826">966554237826+</a></p>
+                   <p> <a href="callto:+966547888187">966547888187+</a></p>
                 </div>
                 <div class="col-1 text-center">
                     <p style="font-size:1.4rem"><i class="bi bi-chat-square-dots-fill"></i></p> 
@@ -95,7 +96,9 @@
     <img src="assets/img/whatsapp.png" alt="Lexicology Translation" ></a>
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
     class="bi bi-arrow-up-short"></i></a>
-<div id="preloaderd"></div>
+    <div id="preloader">
+    <!-- <img src="assets/img/icon.png" class="img-fluid" />  -->
+</div>
 <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
 <script src="assets/vendor/aos/aos.js"></script>
 <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

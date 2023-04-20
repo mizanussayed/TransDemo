@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>Lexicology Translation | Contact</title>
+<title>Lexicology Translation Bureau | Contact</title>
 
 
 <?php
@@ -14,7 +14,7 @@ include('./arabic/header_ar.php')
 <?php
 include('./arabic/navbar_ar.php')
 ?>
-<div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/contact2.jpg'); background-position: center; background-size:cover;">
+<div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/contact.jpg'); background-position: center; background-size:cover;">
     <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
 
     <h2> نحن جاهزون دائمًا
@@ -53,8 +53,8 @@ include('./arabic/navbar_ar.php')
     <div class="phone">
         <i class="bi bi-phone"></i>
         <h4>هاتف</h4>
-         <p> <a href="callto:9660554237826">9660554237826+</a></p>
-         <p> <a href="callto:9660547888187">9660547888187+</a></p>
+         <p> <a href="callto:+966554237826">966554237826+</a></p>
+         <p> <a href="callto:+966547888187">966547888187+</a></p>
     </div>
 
     </div>

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us" dir="ltr">
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>Lexicology Translation | Services</title>
+<title>Lexicology Translation Bureau | Services</title>
 
 
 <?php
@@ -33,7 +33,7 @@ include('components/navbar.php')
 <div class="section-title" data-aos="fade-up">
 <span></span>
 <h2>Our Services</h2>
-<p>Armed with high-rated 300+ Translators from around the world, TransOrient can translate anything into and from over 30+ languages, guaranteeing client satisfaction.</p>
+<p>Armed with high-rated translators fromdifferent countries, we can translate anything into and from over 10+ languages, guaranteeing client satisfaction.</p>
 </div>
 <div class="row">
 
@@ -48,7 +48,7 @@ include('components/navbar.php')
 <div class="col-md-4 d-flex align-items-stretch mb-5 mb-lg-0">
     <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
     <div class="icon"><img  src="./assets/img/services/Document-Translation.png"/> </div>
-    <h4 class="title"><a href="">Document Tranlation</a></h4>
+    <h4 class="title"><a href="">Document Translation</a></h4>
     <p class="description">We provide translations for any type of documents such as business communications, websites, advertising and marketing.</p>
     </div>
 </div>
@@ -56,7 +56,7 @@ include('components/navbar.php')
 <div class="col-md-4 d-flex align-items-stretch mb-5 mb-lg-0">
     <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
     <div class="icon"><img  src="./assets/img/services/Business-Translation.png"/> </div>
-    <h4 class="title"><a href="">Business Tranlation</a></h4>
+    <h4 class="title"><a href="">Business Translation</a></h4>
     <p class="description">Your international commercial needs are evaluated in this category. We offer the best service to enable you to enter new market..</p>
     </div>
 </div>
@@ -67,7 +67,7 @@ include('components/navbar.php')
 <div class="col-md-4 d-flex align-items-stretch mb-5 mb-lg-0">
     <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
     <div class="icon"><img  src="./assets/img/services/Art-Literary.png"/> </div>
-    <h4 class="title"><a href="">Art & Literary Tranlation</a></h4>
+    <h4 class="title"><a href="">Art & Literary Translation</a></h4>
     <p class="description">This type of translation requires expertise in the subject of art and literature translations, which are done by our expert translators.</p>
     </div>
 </div>
@@ -75,7 +75,7 @@ include('components/navbar.php')
 <div class="col-md-4 d-flex align-items-stretch mb-5 mb-lg-0">
     <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
     <div class="icon"><img  src="./assets/img/services/Legal-Translation.png"/> </div>
-    <h4 class="title"><a href="">Legal Tranlation</a></h4>
+    <h4 class="title"><a href="">Legal Translation</a></h4>
     <p class="description">Our legal translation services cover all kinds of legal contracts prospectuses, legal prospectuses, legal accounts brochures, etc.</p>
     </div>
 </div>
@@ -83,7 +83,7 @@ include('components/navbar.php')
 <div class="col-md-4 d-flex align-items-stretch mb-5 mb-lg-0">
     <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
     <div class="icon"><img  src="./assets/img/services/Medical-Translation.png"/> </div>
-    <h4 class="title"><a href="">Medical Tranlation</a></h4>
+    <h4 class="title"><a href="">Medical Translation</a></h4>
     <p class="description">We require that all medical translators must be highly educated, highly trained and experienced in the field of medical.</p>
     </div>
 </div>
