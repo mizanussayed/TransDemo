@@ -203,44 +203,45 @@
                 </p>
               </div>
               <div class="py-2">
-              <h4 style="font-weight: 900; color: black;"> <img src="./assets/img/check-mark-1.svg" width="40px" />
-                &nbsp; &nbsp; ترجمة بشرية 100%</h4>
-              <p>
-                ترجمة بشرية كاملة عالية الجودة - الوثائق تحظى برعاية بشرية تامة
-              </p>
+                <h4 style="font-weight: 900; color: black;"> <img src="./assets/img/check-mark-1.svg" width="40px" />
+                  &nbsp; &nbsp; ترجمة بشرية 100%</h4>
+                <p>
+                  ترجمة بشرية كاملة عالية الجودة - الوثائق تحظى برعاية بشرية تامة
+                </p>
+              </div>
+              <div class="py-2">
+                <h4 style="font-weight: 900; color: black;"> <img src="./assets/img/check-mark-1.svg" width="40px" />
+                  &nbsp; &nbsp; السرية</h4>
+                <p>
+                  نحافظ على سياسة سرية صارمة في جميع ارتباطاتنا ويمكننا توقيع اتفاقيات عدم إفشاء إذا طُلب منا لإثبات
+                  رعايتنا الواجبة.
+                </p>
+              </div>
             </div>
-            <div class="py-2">
-              <h4 style="font-weight: 900; color: black;"> <img src="./assets/img/check-mark-1.svg" width="40px" />
-                &nbsp; &nbsp; السرية</h4>
-              <p>
-                نحافظ على سياسة سرية صارمة في جميع ارتباطاتنا ويمكننا توقيع اتفاقيات عدم إفشاء إذا طُلب منا لإثبات
-                رعايتنا الواجبة.
-              </p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="py-2">
-              <h4 style="font-weight: 900; color: black;"> <img src="./assets/img/check-mark-1.svg" width="40px" />
-                &nbsp; &nbsp; النزاهة</h4>
-              <p>
-                نحن نقدر الصدق والأمانة والشفافية، ونحن ملتزمون بمنحكم أفضل تجربة في جميع خدماتنا.
-              </p>
-            </div>
+            <div class="row">
+              <div class="py-2">
+                <h4 style="font-weight: 900; color: black;"> <img src="./assets/img/check-mark-1.svg" width="40px" />
+                  &nbsp; &nbsp; النزاهة</h4>
+                <p>
+                  نحن نقدر الصدق والأمانة والشفافية، ونحن ملتزمون بمنحكم أفضل تجربة في جميع خدماتنا.
+                </p>
+              </div>
 
-            <div class="py-2">
-              <h4 style="font-weight: 900; color: black;"> <img src="./assets/img/check-mark-1.svg" width="40px" />
-                &nbsp; &nbsp; الالتزام بالجودة</h4>
-              <p>
-              نلتزم بتقديم مستوى ثابت من الجودة في جميع خدماتنا. نحن نهتم بنجاحكم. أهدافكم هي أهدافنا ويسعدنا مساعدتكم.
-            </p>
+              <div class="py-2">
+                <h4 style="font-weight: 900; color: black;"> <img src="./assets/img/check-mark-1.svg" width="40px" />
+                  &nbsp; &nbsp; الالتزام بالجودة</h4>
+                <p>
+                  نلتزم بتقديم مستوى ثابت من الجودة في جميع خدماتنا. نحن نهتم بنجاحكم. أهدافكم هي أهدافنا ويسعدنا
+                  مساعدتكم.
+                </p>
+              </div>
             </div>
           </div>
+          <div class="col-md-6">
+            <br />
+            <img src="assets/img/lexicologyTranslation.png" class="img-fluid" />
+          </div>
         </div>
-        <div class="col-md-6">
-          <br />
-          <img src="assets/img/lexicologyTranslation.png" class="img-fluid" />
-        </div>
-      </div>
       </div>
     </section>
 
@@ -252,7 +253,8 @@
           <span></span>
           <h2>خدماتنا</h2>
           <p>
-            لدينا ما يزيد عن مائة وخمسون مترجماً عالي التصنيف من العديد من دول العالم، يمكن لمكتب علوم المعاجم ترجمة أي نص من وإلى أكثر من 150 لغة، مما يضمن رضا العميل.</p>
+            لدينا ما يزيد عن مائة وخمسون مترجماً عالي التصنيف من العديد من دول العالم، يمكن لمكتب علوم المعاجم ترجمة أي
+            نص من وإلى أكثر من 150 لغة، مما يضمن رضا العميل.</p>
         </div>
         <div class="row">
 
@@ -460,8 +462,50 @@
               </a>
             </div>
           </div>
+        </div>
+      </div>
+    </section> <!---  end of gallery   -->
+    <section id="certification" class="certification">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2>شهادتنا وترخيصنا</h2>
+        </div>
+        <div class="row g-0" data-aos="fade-left">
 
-
+          <div class="col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+              <a href="assets/img/papers/vat.png" class="gallery-lightbox">
+                <img src="assets/img/papers/vat.png" alt="lexicology Translation Vat Certification" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                  <a href="assets/img/papers/licence.png" class="gallery-lightbox">
+                    <img src="assets/img/papers/licence.png" alt="lexicology Translation licence" class="img-fluid">
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                  <a href="assets/img/papers/serial.png" class="gallery-lightbox">
+                    <img src="assets/img/papers/serial.png" alt="lexicology Translation serial Certification"
+                      class="img-fluid">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+              <a href="assets/img/papers/balady.png" class="gallery-lightbox">
+                <img src="assets/img/papers/balady.png" alt="lexicology Translation Balady Certification"
+                  class="img-fluid">
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>

@@ -475,6 +475,51 @@
 
         </div>
       </div>
+    </section> <!---  end of gallery   -->
+
+    <section id="certification" class="certification">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2>Our Certification & license</h2>
+        </div>
+        <div class="row g-0" data-aos="fade-left">
+
+          <div class="col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+              <a href="assets/img/papers/vat.png" class="gallery-lightbox">
+                <img src="assets/img/papers/vat.png" alt="lexicology Translation Vat Certification" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                  <a href="assets/img/papers/licence.png" class="gallery-lightbox">
+                    <img src="assets/img/papers/licence.png" alt="lexicology Translation licence" class="img-fluid">
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                  <a href="assets/img/papers/serial.png" class="gallery-lightbox">
+                    <img src="assets/img/papers/serial.png" alt="lexicology Translation serial Certification"
+                      class="img-fluid">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+              <a href="assets/img/papers/balady.png" class="gallery-lightbox">
+                <img src="assets/img/papers/balady.png" alt="lexicology Translation Balady Certification"
+                  class="img-fluid">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section style="background-color:#F5F4F9">
@@ -509,6 +554,7 @@
         </div>
       </div>
     </section>
+
     <?php
     include('./components/footer.php')
       ?>
