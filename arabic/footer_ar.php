@@ -1,6 +1,6 @@
 <footer id="footer">
 <div class="footer-top">
-    <div class="container-fluid px-5">
+    <div class="container">
     <div class="row">
         <div class="col-md-4">
         <div class="footer-infod">
@@ -9,20 +9,20 @@
             <p class="pb-3">يُقدمّ مكتب علوم المعاجم للترجمة خدمات ترجمة احترافية ودقيقة وبأسعارٍ معقولة للعملاء الذين يسعون للحصول على ترجمات مضمونة عالية الجودة، وذلك بفضل فريقه الذي يضم أكثر من 150+ مترجمًا متميزًا من جميع أنحاء العالم مما يساعده في تقديم ترجماتٍ عالية الجودة وفقًا لمعايير الشركة.
             </p>            
             <div class="social-links mt-3">
-            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-            <a href="https://www.facebook.com/profile.php?id=100091641174711" class="facebook"><i class="bx bxl-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            <a href="#" class="linkedin"><i class="bx bxl-gmail"></i></a>
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100091641174711" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-pinterest"></i></a>
             </div>
         </div>
         </div>
         <div class="col-md-3 footer-links">
         <h4>ارتباط هام</h4>
         <ul>
-            <li><i class="bx bx-chevron-left"></i> <a href="index_ar">الرئيسية</a></li>
-            <li><i class="bx bx-chevron-left"></i> <a href="services_ar">خدماتنا</a></li>
-            <li><i class="bx bx-chevron-left"></i> <a href="contact_ar">اتصل بنا</a></li>
+            <li><i class="bi bi-chevron-left"></i> <a href="index_ar">الرئيسية</a></li>
+            <li><i class="bi bi-chevron-left"></i> <a href="services_ar">خدماتنا</a></li>
+            <li><i class="bi bi-chevron-left"></i> <a href="contact_ar">اتصل بنا</a></li>
         </ul>
         </div>
         <div class="col-md-5">

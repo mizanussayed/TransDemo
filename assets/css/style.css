@@ -48,50 +48,17 @@ h6 {
 .preloader {
   margin: auto;
   background: url("../img/icon.png") no-repeat center;
-  background-size: 100px;
+  background-size: 150px;
   width: 100px;
   height: 100px;
   margin-top: 20%;
 }
 
-
-/* .preloader2 {
-background: url("../img/spin.gif") no-repeat center;
-border-radius: 50%;
-width: 65px;
-height: 65px;
-animation: spin 60s ease-in-out infinite ;
-position: relative;
-margin: auto;
-top: -85px;
-left:-5px;
-} */
-
-.preloader2d {
-border: 5px solid #f3f3f3;
-border-top: 5px solid darkblue;
-border-radius: 50%;
-width: 65px;
-height: 65px;
-animation: spin 1s ease-in-out infinite ;
-position: relative;
-margin: auto;
-top: -85px;
-left:-5px;
-}
-
-@keyframes spin {
-0% { transform: rotate(0deg); }
-100% { transform: rotate(360deg); }
-}
-
-
-
 .preloader2 {
   position: relative;
   margin: auto;
-  top: -100px;
-  left: -4px;
+  top: -95px;
+  left: 0px;
   width: 90px;
   height: 90px;
   border-radius: 50%;
@@ -104,71 +71,10 @@ left:-5px;
   animation:spin 3s infinite linear;
 }
 
-
-#preloaderd {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 9999;
-  overflow: hidden;
-  background: #fff;
-  text-align: center;
-}
-
-#preloaderd:before {
-  content: "";
-  position: fixed;
-  top: calc(50% - 10px);
-  left: calc(50% - 10px);
-  border: 3px solid darkblue;
-  border-top-color: #d2f9eb;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  animation: animate-preloader 1s linear infinite;
-  /* background: url("../img/icon.png"); */
-  background: url("../img/preloader.png");
-  background-size: cover;
-}
-
-
-@keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
   }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-
-.preloaderd {
-  margin: auto;
-  top: 80%;
-  left:50%;
-  background: url("../img/icon.png") no-repeat center;
-  background-size: 100px;
-  width: 300px;
-  height: 300px;
-}
-
-
-.preloader2d {
-  border: 3px solid darkblue;
-  border-top-color: #d2f9eb;
-  border-radius: 50%;
-  width: 70px;
-  height: 70px;
-  animation: spin 1s ease-in-out infinite;
-  position: relative;
-  margin: auto;
-}
-
-
-
 /*--------------------------------------------------------------
 # Back to top button and whatsapp
 --------------------------------------------------------------*/
@@ -240,19 +146,11 @@ left:-5px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  /* background: rgba(1, 2, 142, 1); */
-  /* background: #E5F5FC; */
-  /* background: #D7F9FB; */
-  /* background: #DCDDDF; */
-  /* background: #D3D3D3; */
-  /* background: #919191; */
   background: #eaf4ff;
-  /* border-bottom: 1px solid #555555; */
   border-bottom: 2px solid darkblue;
 }
 
 #header.header-scrolled {
-  /* background: rgba(1, 4, 136, 1); */
   height: 60px;
 }
 
@@ -874,7 +772,7 @@ section {
 }
 
 .breadcrumbs h2 {
-  font-size: 56px;
+  font-size: 2.5vw;
   font-weight: 500;
   color: #fff;
   font-family: var(--font-secondary);

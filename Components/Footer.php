@@ -1,6 +1,6 @@
 <footer id="footer">
 <div class="footer-top">
-    <div class="container-fluid px-5">
+    <div class="container">
     <div class="row">
         <div class="col-md-4">
         <div class="footer-infod">
@@ -9,20 +9,20 @@
             <p class="pb-3">We offer accurate, affordable, and professional translation services to customers who need guaranteed high-quality translations. Lexicology Translation relies on high-rated 150+ translators from around the world to deliver quality translations according to company standards.
             </p>            
             <div class="social-links mt-3">
-            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-            <a href="https://www.facebook.com/profile.php?id=100091641174711" class="facebook"><i class="bx bxl-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            <a href="#" class="linkedin"><i class="bx bxl-gmail"></i></a>
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100091641174711" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-pinterest"></i></a>
             </div>
         </div>
         </div>
         <div class="col-md-3 footer-links">
         <h4>Important Link</h4>
         <ul>
-        <li><i class="bx bx-chevron-right"></i> <a href="index">Home</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="services">Our Services</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="contact">Contact Us</a></li>
+        <li><i class="bi bi-chevron-right"></i> <a href="index">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="services">Our Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="contact">Contact Us</a></li>
         </ul>
         </div>
         <div class="col-md-5">
