@@ -105,10 +105,6 @@
     <img src="assets/img/whatsapp.png" alt="Lexicology Translation"></a>
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
         class="bi bi-arrow-up-short"></i></a>
-<!-- <div id="preloader">
-    <div class="preloader"></div>
-    <div class="preloader2"></div>
-</div> -->
 <div class="center-body" id="preloader">
     <div class="loader-circle-11">
         <div class="arc"></div>
@@ -116,6 +112,7 @@
         <div class="arc"></div>
     </div>
 </div>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
 <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
 <script src="assets/vendor/aos/aos.js"></script>
 <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

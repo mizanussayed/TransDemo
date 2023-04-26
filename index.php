@@ -52,10 +52,7 @@
       <div class="container">
         <div class="section-title" data-aos="fade-up">
           <h2>Trusted by the Top Companies Worldwide</h2>
-          <p>We love partnerng / customers and growing amitious and successful businesses as we are committed to provide
-            a
-            consistent level of quality in all our services. We care abuout your success. Your goals are ours, and we
-            want
+          <p>We love partnering and growing ambitious and successful businesses as we are committed to provide a consistent level of quality in all our services. We care about your success. Your goals are ours, and we want to help you.
             to help you to achieve your goals </p>
         </div>
         <div class="testimonials-slider swiper">

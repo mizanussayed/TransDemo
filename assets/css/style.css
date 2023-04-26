@@ -45,38 +45,6 @@ h6 {
   height: 100%;
 }
 
-.preloader {
-  margin: auto;
-  background: url("../img/icon.png") no-repeat center;
-  background-size: 150px;
-  width: 100px;
-  height: 100px;
-  margin-top: 20%;
-}
-
-.preloader2 {
-  position: relative;
-  margin: auto;
-  top: -95px;
-  left: 0px;
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
-  padding: 5px;
-  background:
-    conic-gradient(from 135deg at top,#00008B 90deg, #0000 0) 0 calc(50% - 4px)/16px 8px,
-    radial-gradient(farthest-side at bottom left,#0000 calc(100% - 6px),#00008B calc(100% - 5px) 99%,#0000) top right/50%  50% content-box content-box,
-    radial-gradient(farthest-side at top    ,#0000 calc(100% - 6px),#00008B calc(100% - 5px) 99%,#0000) bottom   /100% 50% content-box content-box;
-  background-repeat: no-repeat;
-  animation:spin 3s infinite linear;
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-  }
-
-
   .center-body {
     display: flex;
     justify-content: center;
@@ -1162,7 +1130,41 @@ section {
   font-weight: 900;
   color: black
 }
+#files-area{
+	width: 30%;
+}
 
+.file-block{
+	border-radius: 10px;
+	background-color: rgba(144, 163, 203, 0.2);
+	margin: 5px;
+	color: initial;
+	display: inline-flex;
+}
+
+.file-block > span.name{
+  padding-right: 10px;
+  width: max-content;
+  display: inline-flex;
+}
+
+.file-delete{
+	display: flex;
+	width: 24px;
+	color: initial;
+	background-color: #6eb4ff00;
+	font-size: large;
+	justify-content: center;
+	margin-right: 3px;
+	cursor: pointer;
+}
+.file-delete:hover{
+  background-color: rgba(144, 163, 203, 0.2);
+  border-radius: 10px;
+}
+.file-delete > span{
+  transform: rotate(45deg);
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
