@@ -43,13 +43,13 @@
                         <div class="phone">
                             <i class="bi bi-phone"></i>
                             <h4> Call </h4>
-                            <p> <a href="callto:+966554237826">+966554237826</a></p>
-                            <p> <a href="callto:+966547888187">+966547888187</a></p>
+                            <p> <a href="callto:966554237826">+966554237826</a></p>
+                            <p> <a href="callto:966547888187">+966547888187</a></p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
-                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                    <form action="forms/contact.php" method="post" role="form" class="php-email-form" enctype="multipart/form-data">
                         <div class="row">
                             <div class="col-md-6 form-group">
                                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"

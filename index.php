@@ -52,7 +52,9 @@
       <div class="container">
         <div class="section-title" data-aos="fade-up">
           <h2>Trusted by the Top Companies Worldwide</h2>
-          <p>We love partnering and growing ambitious and successful businesses as we are committed to provide a consistent level of quality in all our services. We care about your success. Your goals are ours, and we want to help you.
+          <p>We love partnering and growing ambitious and successful businesses as we are committed to provide a
+            consistent level of quality in all our services. We care about your success. Your goals are ours, and we
+            want to help you.
             to help you to achieve your goals </p>
         </div>
         <div class="testimonials-slider swiper">
@@ -155,7 +157,7 @@
             </div>
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="./assets/img/english/sipchem.png " class="testimonial-img" alt=" sipchem " />
+                <img src="./assets/img/english/sipchem.png " class="testimonial-img" alt="sipchem" />
               </div>
             </div>
             <div class="swiper-slide">
@@ -196,7 +198,7 @@
           <div class="col-md-6">
             <div class="row">
               <div class="py-2">
-                <h4 style="font-weight: 900; color: black;"> <img src="./assets/img/check-mark-1.svg" width="40px" />
+                <h4> <img src="./assets/img/check-mark-1.svg" alt="lexicology Translation" />
                   &nbsp; &nbsp; Best Quality - Low Price</h4>
                 <p>
                   We are highly flexible and are proud to work with clients who appreciate high quality work in an
@@ -207,14 +209,14 @@
                 </p>
               </div>
               <div class="py-2">
-                <h4 style="font-weight: 900; color: black;"> <img src="./assets/img/check-mark-1.svg" width="40px" />
+                <h4> <img src="./assets/img/check-mark-1.svg" alt="lexicology Translation" />
                   &nbsp; &nbsp; 100% Human Translated</h4>
                 <p>
                   High-quality full human translation - documents are much human cared about.
                 </p>
               </div>
               <div class="py-2">
-                <h4 style="font-weight: 900; color: black;"> <img src="./assets/img/check-mark-1.svg" width="40px" />
+                <h4> <img src="./assets/img/check-mark-1.svg" alt="lexicology Translation" />
                   &nbsp; &nbsp; Confidentiality</h4>
                 <p>
                   We maintain a strict confidentiality policy in all our engagements and can sign non-disclosure
@@ -224,7 +226,7 @@
             </div>
             <div class="row">
               <div class="py-2">
-                <h4 style="font-weight: 900; color: black;"> <img src="./assets/img/check-mark-1.svg" width="40px" />
+                <h4> <img src="./assets/img/check-mark-1.svg" alt="lexicology Translation" />
                   &nbsp; &nbsp; Integrity</h4>
                 <p>
                   We value sincerity, honesty, and transparency, and we are committed to giving you the best experience
@@ -232,7 +234,7 @@
                 </p>
               </div>
               <div class="py-2">
-                <h4 style="font-weight: 900; color: black;"> <img src="./assets/img/check-mark-1.svg" width="40px" />
+                <h4> <img src="./assets/img/check-mark-1.svg" alt="lexicology Translation" />
                   &nbsp; &nbsp; Quality Commitment</h4>
                 <p>
                   We commit to provide a consistent level of quality in all our services. We care about your success.
@@ -243,7 +245,7 @@
           </div>
           <div class="col-md-6">
             <br />
-            <img src="assets/img/lexicologyTranslation.png" class="img-fluid" />
+            <img src="assets/img/lexicologyTranslation.png" class="img-fluid" alt="lexicology Translation" />
           </div>
         </div>
       </div>
@@ -261,8 +263,9 @@
 
           <div class="col-md-4 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-              <div class="icon"><img src="./assets/img/services/Business-Translation.png" /> </div>
-              <h4 class="title"><a href="">Business Translation</a></h4>
+              <div class="icon"><img src="./assets/img/services/Business-Translation.png"
+                  alt="lexicology Translation" /> </div>
+              <h4 class="title"><a href="#">Business Translation</a></h4>
               <p class="description">
                 Your international commercial needs are evaluated in this category. We offer the best service to enable
                 you to access new market and maintain your available international relationships smoothly and freely.
@@ -272,8 +275,8 @@
 
           <div class="col-md-4 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <div class="icon"><img src="./assets/img/services/Academic-Translation.png" /></div>
-              <h4 class="title"><a href="">Academic Translation</a></h4>
+            <div class="icon"> <i class="bi bi-translate display-6"></i></div>
+              <h4 class="title"><a href="#">Academic Translation</a></h4>
               <p class="description">Academic texts are translated by experienced translators with sufficient lexical
                 terminology.</p>
             </div>
@@ -281,7 +284,7 @@
 
           <div class="col-md-4 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-              <div class="icon"><img src="./assets/img/services/Document-Translation.png" /> </div>
+            <div class="icon"> <i class="bi bi-book-fill display-6"></i></div>
               <h4 class="title"><a href="">Document Translation</a></h4>
               <p class="description">We provide translation for any type of documents, for example, business
                 communications, websites, advertisements, accounting, medical, and marketing documents, and all fields.
@@ -296,8 +299,9 @@
 
           <div class="col-md-4 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-              <div class="icon"><img src="./assets/img/services/Legal-Translation.png" /> </div>
-              <h4 class="title"><a href="">Legal Translation</a></h4>
+              <div class="icon"><img src="./assets/img/services/Legal-Translation.png" alt="lexicology Translation" />
+              </div>
+              <h4 class="title"><a href="#">Legal Translation</a></h4>
               <p class="description">Our legal translation services cover all kinds of legal contracts, legal
                 prospectuses, legal accounts brochures, etc.</p>
             </div>
@@ -305,8 +309,8 @@
 
           <div class="col-md-4 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-              <div class="icon"><img src="./assets/img/services/Medical-Translation.png" /> </div>
-              <h4 class="title"><a href="">Medical Translation</a></h4>
+              <div class="icon"> <i class="bi bi-heart-pulse display-6"></i></div>
+              <h4 class="title"><a href="#">Medical Translation</a></h4>
               <p class="description">We require that all medical translators and translation editors must be highly
                 educated, received proper training, and have actual work experience in the fields of medicine.</p>
             </div>
@@ -314,7 +318,7 @@
 
           <div class="col-md-4 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-              <div class="icon"><img src="./assets/img/services/Art-Literary.png" /> </div>
+              <div class="icon"><img src="./assets/img/services/Art-Literary.png" alt="lexicology Translation" /> </div>
               <h4 class="title"><a href="">Art & Literary Translation</a></h4>
               <p class="description">This type of translation requires expertise in the subject of art and literature
                 translations, which are done by our translators who are experts in this field.</p>
@@ -348,7 +352,7 @@
           <div class="col-md-6">
             <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
               <a href="assets/img/gallery/gallery-1.jpg" class="gallery-lightbox">
-                <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
+                <img src="assets/img/gallery/gallery-1.jpg" alt="lexicology Translation" class="img-fluid">
               </a>
             </div>
           </div>
@@ -538,12 +542,12 @@
             <div class="row">
               <div class="col-md-4">
                 <br /> &nbsp; &nbsp;
-                <a href="tel:++966554237826" style="font-size:20px">
+                <a href="callto:966554237826" class="h5">
                   <i class="bi bi-telephone-fill"></i>&nbsp; 0554237826</a>
               </div>
               <div class="col-md-8">
                 <br />
-                <a href="mailto:info@lexicologytranslation.com" style="font-size:20px">
+                <a href="mailto:info@lexicologytranslation.com" class="h5">
                   <i class="bi bi-envelope"></i> &nbsp; info@lexicologytranslation.com </a>
               </div>
             </div>

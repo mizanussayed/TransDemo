@@ -2,7 +2,6 @@
 <div class="container d-flex align-items-center justify-content-between">
     <div class="logo">
     <h1><a href="index" ><img src="./assets/img/lexicologyTranslationLogo.png" alt="Lexicology Translation"></a> </h1>
-</a>
     </div>
     <nav id="navbar" class="navbar">
     <ul>

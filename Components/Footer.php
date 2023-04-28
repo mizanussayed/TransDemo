@@ -50,8 +50,8 @@
                         </div>
                         <div class="col-11">
                             <h4> Call </h4>
-                            <p> <a href="callto:+966554237826">+966554237826</a></p>
-                            <p> <a href="callto:+966547888187">+966547888187</a></p>
+                            <p> <a href="callto:966554237826">+966554237826</a></p>
+                            <p> <a href="callto:966547888187">+966547888187</a></p>
                         </div>
                         <div class="col-1 text-center">
                             <p style="font-size:1.4rem"><i class="bi bi-chat-square-dots-fill"></i></p>
@@ -66,22 +66,22 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container" id="bottom-footer">
         <div class="row">
             <div class="col-md-3">
-                <img src="./assets/img/cr.png" width="50">
+                <img src="./assets/img/cr.png" alt="lexicology Translation cr">
                 <p>CR : 1010645449 </p>
             </div>
             <div class="col-md-3">
-                <img src="./assets/img/vat.png" width="50">
+                <img src="./assets/img/vat.png" alt="lexicology Translation vat">
                 <p>VAT : 302086939100003</p>
             </div>
             <div class="col-md-3">
-                <img src="./assets/img/cr.png" width="50" style="opacity:2">
+                <img src="./assets/img/cr.png" alt="lexicology Translation license">
                 <p>License : 702 </p>
             </div>
             <div class="col-md-3">
-                <img src="./assets/img/balady.png" width="50" style="opacity:2">
+                <img src="./assets/img/balady.png" alt="lexicology Translation balady" class="h-50 w-50">
                 <p>Balady License : 42054997939 </p>
             </div>
         </div>
@@ -93,8 +93,7 @@
                     Translation</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
-            Designed by <a href="https://fb.com/emrankhnss"> &nbsp; I &nbsp; &nbsp;</a> <a
-                href="https://fb.com/mizanussayed">& &nbsp; &nbsp;M</a>
+            Designed by <a href="https://fb.com/mizanussayed"> &nbsp; &nbsp;M</a>
         </div>
     </div>
 </footer>
@@ -113,9 +112,8 @@
     </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
-<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script><script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
 <script src="assets/vendor/aos/aos.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
 <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 <script src="assets/vendor/php-email-form/validate.js"></script>

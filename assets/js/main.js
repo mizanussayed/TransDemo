@@ -76,11 +76,11 @@ $(document).ready(function(){
 function switchLang(lang) {
   if (lang === "ar") {
     if (window.location.toString().includes("services")) {
-      window.location.href = "services_ar";
+      window.location.href = "services-ar";
     } else if (window.location.toString().includes("contact")) {
-      window.location.href = "contact_ar";
+      window.location.href = "contact-ar";
     } else {
-      window.location.href = "index_ar";
+      window.location.href = "index-ar";
     }
   } else {
     if (window.location.toString().includes("services")) {

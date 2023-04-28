@@ -782,7 +782,13 @@
     color: #3498db;
   }
   
-  
+  #category h4{
+    font-weight: 900;
+    color: black;
+  }
+  #category .py-2 img {
+    width:40px;
+  }
   /*--------------------------------------------------------------
   # Breadcrumbs
   --------------------------------------------------------------*/
@@ -1269,6 +1275,10 @@
   
   #footer .footer-top .footer-links ul a:hover {
     color: #4be8b0;
+  }
+
+  #bottom-footer img{
+    width: 50px;
   }
   
   #footer .copyright {
