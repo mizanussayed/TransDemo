@@ -49,7 +49,7 @@
                     </div>
                 </div>
                 <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
-                    <form action="forms/contact.php" method="post" role="form" class="php-email-form" enctype="multipart/form-data">
+                    <form action="./forms/contact.php" method="post" role="form" class="php-email-form" enctype="multipart/form-data">
                         <div class="row">
                             <div class="col-md-6 form-group">
                                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
@@ -70,7 +70,7 @@
                         </div>
                         <div class="form-group mt-3">
                         <span class="form-control d-none" id="fileSpan"></span>
-                            <input type="file" class="form-control" name="sampleFile" id="sampleFile"
+                            <input type="file" class="form-control" name="file[]" id="sampleFile"
                                 placeholder="Your Sample File" multiple>
                         </div>
                         <div id="files-area" class="my-3">

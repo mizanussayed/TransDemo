@@ -48,7 +48,8 @@
                     </div>
                 </div>
                 <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
-                    <form action="forms/contact.php" method="post" role="form" class="php-email-form" enctype="multipart/form-data">
+                    <form action="./forms/contact.php" method="post" role="form" class="php-email-form"
+                        enctype="multipart/form-data">
                         <div class="row">
                             <div class="col-md-6 form-group">
                                 <input type="text" name="name" class="form-control" id="name"
@@ -70,8 +71,7 @@
                         <div class="input-group mt-3 contact-file-div">
                             <label class="input-group-text" for="sampleFile">اختر ملف</label>
                             <span class="form-control" id="fileSpan">لم يتم اختيار ملف</span>
-                            <input type="file" class="form-control" name="sampleFile" id="sampleFile"
-                                style="display:none" multiple>
+                            <input type="file" class="form-control d-none" name="file[]" id="sampleFile" multiple>
                         </div>
                         <div id="files-area" class="my-3">
                             <span id="filesList">

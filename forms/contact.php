@@ -1,34 +1,66 @@
 <?php
-  // Replace contact@example.com with your real receiving email address
-  $receiving_email_address = 'contact@example.com';
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+  $name = $_POST['name'];
+  $email = $_POST['email'];
+  $subject = $_POST['subject'];
+  $message = $_POST['message'];
+  $attachments = array();
 
-  if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
-    include( $php_email_form );
-  } else {
-    die( 'Unable to load the "PHP Email Form" Library!');
+  // Get uploaded files
+  foreach ($_FILES['file']['tmp_name'] as $key => $tmp_name) {
+
+    $file_name = $_FILES['file']['name'][$key];
+
+    $file_size = $_FILES['file']['size'][$key];
+
+    $file_tmp = $_FILES['file']['tmp_name'][$key];
+
+    $file_type = $_FILES['file']['type'][$key];
+
+    $file_error = $_FILES['file']['error'][$key];
+
+    if ($file_error === UPLOAD_ERR_OK && $file_size > 0) {
+      $file_content = file_get_contents($file_tmp);
+      $attachments[] = array(
+        'name' => $file_name,
+        'content' => $file_content,
+        'type' => $file_type
+      );
+      unlink($file_tmp); // Delete uploaded file from server
+    }
   }
 
-  $contact = new PHP_Email_Form;
-  $contact->ajax = true;
-  
-  $contact->to = $receiving_email_address;
-  $contact->from_name = $_POST['name'];
-  $contact->from_email = $_POST['email'];
-  $contact->subject = $_POST['subject'];
+  // Send email with attachments
+  require_once('PHPMailer.php');
+  require_once('SMTP.php');
+  require_once('Exception.php');
 
-  // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
-  /*
-  $contact->smtp = array(
-    'host' => 'example.com',
-    'username' => 'example',
-    'password' => 'pass',
-    'port' => '587'
-  );
-  */
+  $hostname = "service@lexicologytranslation.com";
+  $password =  "s@%^&*sErViC10936";
+  $mail = new PHPMailer\PHPMailer\PHPMailer();
+  $mail->Password   =$password;
+  $mail->SMTPDebug = 0;
+  $mail->CharSet = 'UTF-8';
+  $mail->isSMTP();
+  $mail->SMTPAuth   = true;
+  $mail->Host = "lexicologytranslation.com";
+  $mail->Port  = 465;
+  $mail->Username   = $hostname;
+  $mail->SMTPSecure = "ssl";
+  $mail->setFrom($hostname, $hostname);
+  $mail->addCC($email, $name);
+  $mail->Subject  = $subject;
+  $mail->isHTML();
+  $mail->Body = $message;
+  $mail->addAddress("info@lexicologytranslation.com");
+  foreach ($attachments as $attachment) {
+    $mail->addStringAttachment($attachment['content'], $attachment['name'], 'base64', $attachment['type']);
+  }
 
-  $contact->add_message( $_POST['name'], 'From');
-  $contact->add_message( $_POST['email'], 'Email');
-  $contact->add_message( $_POST['message'], 'Message', 10);
-
-  echo $contact->send();
+  if ($mail->send()) {
+    echo 'OK';
+  } else {
+    echo 'Oops! There was a problem sending your message..';
+  }
+}
 ?>
