@@ -71,7 +71,7 @@
                         <div class="form-group mt-3">
                         <span class="form-control d-none" id="fileSpan"></span>
                             <input type="file" class="form-control" name="file[]" id="sampleFile"
-                                placeholder="Your Sample File" multiple>
+                                placeholder="Your Sample File" multiple accept="image/* , application/pdf">
                         </div>
                         <div id="files-area" class="my-3">
                             <span id="filesList">

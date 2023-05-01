@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $password =  "s@%^&*sErViC10936";
   $mail = new PHPMailer\PHPMailer\PHPMailer();
   $mail->Password   =$password;
-  $mail->SMTPDebug = 0;
+  $mail->SMTPDebug = 3;
   $mail->CharSet = 'UTF-8';
   $mail->isSMTP();
   $mail->SMTPAuth   = true;

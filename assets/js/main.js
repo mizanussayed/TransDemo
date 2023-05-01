@@ -1,10 +1,10 @@
-$(document).ready(function(){
-  $(".mobile-nav-toggle").click(function(e){
+$(document).ready(function () {
+  $(".mobile-nav-toggle").click(function (e) {
     $('#navbar').toggleClass('navbar-mobile')
     $(e).toggleClass('bi-list')
     $(e).toggleClass('bi-x')
   });   /** Mobile nav dropdowns activate   */
-  $(".navbar .dropdown > a").click(function(e){
+  $(".navbar .dropdown > a").click(function (e) {
     if ($('#navbar').hasClass('navbar-mobile')) {
       e.preventDefault();
       $(".navbar .dropdown > a").next().toggleClass('dropdown-active')
@@ -12,7 +12,7 @@ $(document).ready(function(){
   });
   let preloader = $('#preloader');
   if (preloader) {
-      preloader.remove()
+    preloader.remove()
   }   /** Initiate glightbox  */
   const glightbox = GLightbox({
     selector: '.glightbox'
@@ -40,7 +40,7 @@ $(document).ready(function(){
     once: true,
     mirror: false
   })
- new PureCounter();
+  new PureCounter();
 });
 
 (function () {
@@ -110,14 +110,18 @@ let dt = new DataTransfer();
 $("#sampleFile").on('change', function (e) {
   fileCountChange();
   for (var i = 0; i < this.files.length; i++) {
-    let fileBloc = $('<span/>', { class: 'file-block' }),
-      fileName = $('<span/>', { class: 'name', text: this.files.item(i).name + "  " + Math.round(this.files.item(i).size / 1024) + "  KB" });
-    fileBloc.append('<span class="file-delete"><span>+</span></span>')
-      .append(fileName);
-    $("#filesList > #files-names").append(fileBloc);
+    if (this.files.item(i).type == "application/pdf" || this.files.item(i).type.substring(0, 5) == "image") {
+      let fileBloc = $('<span/>', { class: 'file-block' }),
+        fileName = $('<span/>', { class: 'name', text: this.files.item(i).name + "  " + Math.round(this.files.item(i).size / 1024) + "  KB" });
+      fileBloc.append('<span class="file-delete"><span>+</span></span>')
+        .append(fileName);
+      $("#filesList > #files-names").append(fileBloc);
+    }
   };
   for (let file of this.files) {
-    dt.items.add(file);
+    if (file.type == "application/pdf" || file.type.substring(0, 5) == "image") {
+      dt.items.add(file);
+    }
   }
 
   this.files = dt.files;

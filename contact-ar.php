@@ -71,7 +71,7 @@
                         <div class="input-group mt-3 contact-file-div">
                             <label class="input-group-text" for="sampleFile">اختر ملف</label>
                             <span class="form-control" id="fileSpan">لم يتم اختيار ملف</span>
-                            <input type="file" class="form-control d-none" name="file[]" id="sampleFile" multiple>
+                            <input type="file" class="form-control d-none" name="file[]" id="sampleFile" multiple accept="image/* , application/pdf">
                         </div>
                         <div id="files-area" class="my-3">
                             <span id="filesList">
