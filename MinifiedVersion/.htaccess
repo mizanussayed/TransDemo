@@ -10,3 +10,9 @@ RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
 RewriteCond %{HTTPS} on
 RewriteCond %{HTTP_HOST} !^www\.(.*)$ [NC]
 RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
+
+#Set caching headers for static files
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresDefault "access plus 1 month"
+</IfModule>

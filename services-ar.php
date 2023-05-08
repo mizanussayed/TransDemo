@@ -4,9 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link rel="canonical" href="https://lexicologytranslation.com/services" />
   <title>Lexicology Translation Bureau | Services</title>
-
-
   <?php
   include('./arabic/header_ar.php')
     ?>

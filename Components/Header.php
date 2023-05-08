@@ -1,7 +1,7 @@
 <meta name="description"
     content="Lexicology  translation bureau is certified Translation and Training Services center in the Kingdom of Saudi Arabia and around the world.">
 <meta name="keywords"
-    content="Lexicology  Translation Bureau,  Certified Translation, Translation  center in the Kingdom of Saudi Arabia, Translator, Certified Translator Center, Translation Office in Riyadh">
+    content="Lexicology Translation Bureau,Certified Translation, Translation center in the Kingdom of Saudi Arabia, Translator, Certified Translator Center, Translation Office in Riyadh">
 <meta name="robots" content="index, follow">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="language" content="English">

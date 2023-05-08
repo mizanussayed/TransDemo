@@ -1,5 +1,36 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "website",
+  "name": "Lexicology Translation",
+  "url": "https://lexicologytranslaton.com/",
+  "@id": "https://lexicologytranslation.com/#website",
+  "logo": "https://lexicologytranslaton.com/assets/img/icon.png",
+  "description": "Lexicology translation bureau is certified Translation and Training Services center in the Kingdom of Saudi Arabia and around the world.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Abi Bakr Alrazi Street Intersection with Dabab Street",
+    "addressLocality": "Sulaimaniyah District",
+    "addressRegion": "Riyadh",
+    "postalCode": "12231",
+    "addressCountry": "Saudi Arabia"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+966554237826",
+    "contactType": "customer service"
+  },
+  "sameAs": [
+    "https://www.facebook.com/LexicologyTranslation/",
+    "https://twitter.com/a_jalika",
+    "https://www.linkedin.com/in/LexicologyTranslation/",
+    "https://www.pinterest.com/LexicologyTranslation/",
+    "https://www.instagram.com/LexicologyTranslation/",
+  ]
+}
+</script>
 <meta name="description"
-    content="Lexicology  translation bureau is certified Translation and Training Services center in the Kingdom of Saudi Arabia and around the world.">
+    content="Lexicology translation bureau is certified Translation and Training Services center in the Kingdom of Saudi Arabia and around the world.">
 <meta name="keywords"
     content="Lexicology Translation Bureau,  Certified Translation, Translation center in the Kingdom of Saudi Arabia, Translator, Certified Translator Center, Translation Center in Riyadh">
 <meta name="robots" content="index, follow">

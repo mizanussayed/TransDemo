@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Lexicology Translation Bureau | Services</title>
-
+  <link rel="canonical" href="https://lexicologytranslation.com/services" />
 
   <?php
   include('./components/header.php')

@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="canonical" href="https://lexicologytranslation.com/contact-ar" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Lexicology Translation Bureau | Contact</title>
     <?php include('./arabic/header_ar.php') ?>

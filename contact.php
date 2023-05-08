@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="canonical" href="https://lexicologytranslation.com/contact" />
     <title>Lexicology Translation Bureau | Contact</title>
     <?php include('./components/header.php') ?>
 </head>
