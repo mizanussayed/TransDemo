@@ -25,7 +25,7 @@
     "https://twitter.com/a_jalika",
     "https://www.linkedin.com/in/LexicologyTranslation/",
     "https://www.pinterest.com/LexicologyTranslation/",
-    "https://www.instagram.com/LexicologyTranslation/",
+    "https://www.instagram.com/LexicologyTranslation/"
   ]
 }
 </script>
